@@ -6,5 +6,5 @@
 
 ## Firework 1 (Safe)
 <p align="center">
-<img src="https://user-images.githubusercontent.com/65969657/107123705-00424880-686d-11eb-9e97-95e72ccdd39c.gif" width="300" height="500">
+<img src="https://user-images.githubusercontent.com/65969657/107123705-00424880-686d-11eb-9e97-95e72ccdd39c.gif" width="700" height="400">
 </p>
