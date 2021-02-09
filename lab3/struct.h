@@ -3,7 +3,7 @@
 struct Firework {
 	double time;
 	unsigned int hex;
-	double fuze;
+	double fuse;
 	double x;
 	double vx;
 	double vy;
