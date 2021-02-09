@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Double	install/lab1.c	/^int Double(int x)$/;"	f
+Double	lab1.c	/^int Double(int x)$/;"	f
+INIT	include.h	2;"	d
+INIT	install/include.h	2;"	d
+divide	install/zd.c	/^int divide( int x, int y)$/;"	f
+divide	zd.c	/^int divide( int x, int y)$/;"	f
+main	install/lab1.c	/^int main()$/;"	f
+main	install/zd.c	/^int main()$/;"	f
+main	lab1.c	/^int main()$/;"	f
+main	zd.c	/^int main()$/;"	f
+quotient_table	install/zd.c	/^void quotient_table(int limit)$/;"	f
+quotient_table	zd.c	/^void quotient_table(int limit)$/;"	f

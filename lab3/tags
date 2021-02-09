@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ActionFunction	linkedlist.h	/^typedef void (* ActionFunction)( void *data);$/;"	t
+ComparisonFunction	linkedlist.h	/^typedef int (* ComparisonFunction)(void *data1, void *data2);$/;"	t
+CriteriaFunction	linkedlist.h	/^typedef int (* CriteriaFunction)(void *data);$/;"	t
+Node	node.h	/^	}Node;$/;"	t	typeref:struct:Node
+Node	node.h	/^typedef struct Node{$/;"	s
+NumericFunction	linkedlist.h	/^typedef double (* NumericFunction)(void *data);$/;"	t
+data	node.h	/^	void *data;$/;"	m	struct:Node
+firework	struct.h	/^struct firework {$/;"	s
+fuze	struct.h	/^	double fuze;$/;"	m	struct:firework
+hex	struct.h	/^	unsigned int hex;$/;"	m	struct:firework
+main	struc_proto.c	/^int main() {$/;"	f
+next	node.h	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
+time	struct.h	/^	double time;$/;"	m	struct:firework
+vx	struct.h	/^	double vx;$/;"	m	struct:firework
+vy	struct.h	/^	double vy;$/;"	m	struct:firework
+x	struct.h	/^	double x;$/;"	m	struct:firework

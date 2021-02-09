@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BANG_SHIFT	func.h	12;"	d
+COLOR_BITS	func.h	8;"	d
+COLOR_SHIFT	func.h	7;"	d
+DAY_BITS	func.h	17;"	d
+DAY_SHIFT	func.h	16;"	d
+DEBUG	debug.h	16;"	d
+EFFECT_BITS	func.h	13;"	d
+FADE	func.h	4;"	d
+FLASH_SHIFT	func.h	11;"	d
+GRAPHICS	debug.h	14;"	d
+GRAVITY	gravity.h	6;"	d
+MONTH_BITS	func.h	19;"	d
+MONTH_SHIFT	func.h	18;"	d
+TEXT	debug.h	13;"	d
+VERBOSE	debug.h	12;"	d
+YEAR_BITS	func.h	21;"	d
+YEAR_SHIFT	func.h	20;"	d
+draw	simulate.c	/^void draw(double x, double y, int color, double dt, unsigned int hex) {$/;"	f
+draw_bang	simulate.c	/^void draw_bang(unsigned int hex, double x, double y) {$/;"	f
+draw_effect	simulate.c	/^void draw_effect(double hex, double x, double y, int color) {$/;"	f
+draw_flash	simulate.c	/^void draw_flash(unsigned int hex, double x, double y) {$/;"	f
+draw_star	simulate.c	/^void draw_star(double x, double y, int color) {$/;"	f
+end	lab2.c	/^void end(double run_time) {$/;"	f
+fade	simulate.c	/^void fade(double dt) {$/;"	f
+get_bang	bits.c	/^int get_bang(unsigned int hex) {$/;"	f
+get_bits	bits.c	/^int get_bits(int shift, unsigned int mask, unsigned int hex) {$/;"	f
+get_color	bits.c	/^int get_color(unsigned int hex) {$/;"	f
+get_day	bits.c	/^int get_day(unsigned int hex) {$/;"	f
+get_dt	physics.c	/^double get_dt(double vy) {$/;"	f
+get_flash	bits.c	/^int get_flash(unsigned int hex) {$/;"	f
+get_month	bits.c	/^int get_month(unsigned int hex) {$/;"	f
+get_vy	physics.c	/^double get_vy(double vy, double dt) {$/;"	f
+get_x	physics.c	/^double get_x(double x, double vx, double dt) {$/;"	f
+get_y	physics.c	/^double get_y(double y, double vy, double dt) {$/;"	f
+get_year	bits.c	/^int get_year(unsigned int hex) {$/;"	f
+main	lab2.c	/^int main() {$/;"	f
+print_bang	simulate.c	/^void print_bang(double x, double y) {$/;"	f
+print_data	simulate.c	/^void print_data(double time, double x, double y,double vx, double vy, double fuse) {$/;"	f
+print_flash	simulate.c	/^void print_flash(double x, double y) {$/;"	f
+print_freefall	simulate.c	/^int print_freefall(unsigned int hex, double x, double y, double fuse) {$/;"	f
+print_header	simulate.c	/^void print_header(unsigned int hex, double dt) {$/;"	f
+print_impact	simulate.c	/^int print_impact(double time, unsigned int hex, double x, double y, double fuse) {$/;"	f
+print_star	simulate.c	/^void print_star(int color, double x, double y) {$/;"	f
+read	lab2.c	/^void read() {$/;"	f
+run	simulate.c	/^void run(int color, double time, double fuse, unsigned int hex,  double x, double y, double vx, double vy, double dt){$/;"	f
+simulate	simulate.c	/^void simulate(double time, unsigned int hex, double fuse, double x, double vx, double vy) {$/;"	f

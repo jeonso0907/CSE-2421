@@ -1,0 +1,43 @@
+THIS IS THE README FILE FOR LAB 1.
+
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE PERFORMED ALL
+OF THE WORK TO DETERMINE THE ANSWERS FOUND WITHIN THIS FILE MYSELF WITH
+NO ASSISTANCE FROM ANY PERSON OTHER THAN THE INSTRUCTOR OF THIS COURSE
+OR ONE OF OUR UNDERGRADUATE GRADERS.
+
+1. Name: 
+Sooyoung Jeon
+
+2. UNIX is proprietary system (i.e. you must purchase a license) while Linux is an Open Source system. An Open Source system, however, is not always “free”. Why?
+There should be somewhat a way to support the Linux to keep on going. Companies pay for it to advoate which will help to fix bugs or improve the current system.
+
+3. Within gdb, the value of the variable i before the initialization is:
+0
+
+4. Within gdb, the value of the variable i after the initialization is:
+1
+
+5. What does touch do and why did it change the behavior of make?
+Touch can either create a new empty file. It can be created for the time when the user does not need any content to be stored.
+
+6. In gdb, you walked through the code using next and using step – describe the differences in their behavior:
+Both step and next execute the current line and move on to the next line. If the next line is a function, code next will execute it and display the result while the code step goes into the function and start with the steps in the function.
+
+7. In gdb, what did finish do?
+Code finish runs the current function until it returns the result of the function.
+
+8. On the final run, after you set the value of x to 200, what was the value of i back in the calling function?
+200
+
+9. What kind of recognizable things were found in the tags file?
+All the name of the functions in each c and header file are located in the tags file. It also continas the location of each name.
+
+10.How do the contents of the .vs file compare to your C code?
+.vs file only contains the name of the functions, which are Double and main. No statements are displayed in each function.
+
+11.Give the line number and filename for where the zd executable crashed.
+It crashed at line 24, where "divide" function is located.
+
+12.What is the value of i in zd when zd crashes?
+10
+
