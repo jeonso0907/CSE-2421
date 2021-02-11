@@ -1,0 +1,8 @@
+
+# Copyright 2021 Neil Kirby - not for further distribution 
+# a list prototype.  Add this fragment to your makefile
+# you may NOT turn these in for credit.
+
+listproto : listproto.o
+	gcc -g -o $@ $^ -L. -llinkedlist 
+
