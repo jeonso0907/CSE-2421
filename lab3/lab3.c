@@ -1,8 +1,10 @@
 /* Sooyoung Jeon */
 
 #include <stdio.h>
-#include "func.h"
 #include "struct.h"
+#include "debug.h"
+#include "linkedlist.h"
+#include "libfire.h"
 
 void run_func(struct Firework *rocket, void (*func_ptr)(struct Firework *f)) {
 		func_ptr(rocket);
@@ -14,15 +16,23 @@ void print_struct(struct Firework *f) {
 }
 
 void read_struct(struct Firework *f) {
+		struct Sim s, *sim_struct = &s;
+		sim_struct->list = NULL;
 		while (scanf("%lf %X %lf %lf %lf %lf\n", &f->time, &f->hex, &f->fuse, &f->x, &f->vx, &f->vy) == 6) {
-				run_func(f, &print_struct);
+				struct Firework fc, *fc_ptr = &fc;
+				*fc_ptr = *f;
+				fc_ptr->sim = sim_struct;
+				insert_struct(fc_ptr);
 		}
+		run_simulate(sim_struct);
 }
 
 int main() {
+		if (TEXT || (GRAPHICS &&fw_initialize())) {
+				struct Firework f = {0}, *rocket = &f;
+				run_func(rocket, &read_struct);
+				if (GRAPHICS) fw_teardown();
+		}
 
-		struct Firework f = {0}, *rocket = &f;
-		run_func(rocket, &read_struct);
-
-	return 0;
+		return 0;
 }

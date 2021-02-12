@@ -2,7 +2,7 @@
 # Neil Kirby: example makefile for lab2 SP21.  Shows using libfire.
 #
 
-all:  struct_proto.o struct_proto pointer_proto.o pointer_proto read_proto.o read_proto func_ptr_proto.o func_ptr_proto listproto.o listproto lab3.o lab3
+all:  struct_proto.o struct_proto pointer_proto.o pointer_proto read_proto.o read_proto func_ptr_proto.o func_ptr_proto listproto.o listproto lab3.o lab3 memory.o output.o calculate.o
 
 headers: *.c tags
 	headers.sh
@@ -20,7 +20,7 @@ p1: p1.o
 # It needs all 4 warnings
 
 %.o:%.c *.h
-	gcc -ansi -pedantic -Wimplicit-function-declaration -Wreturn-type -g -c $< -o $@
+	gcc -ansi -pedantic -Wimplicit-function-declaration -Wreturn-type -g -c $< -o $@ -llinkedlist
 
 # Prototype 1
 
@@ -49,5 +49,5 @@ listproto : listproto.o
 
 # Lab3
 
-lab3: lab3.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+lab3: lab3.o memory.o output.o calculate.o
+	gcc -g -o $@ $^ -L. -lfire -lncurses -llinkedlist
