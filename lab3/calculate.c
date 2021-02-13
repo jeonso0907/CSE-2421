@@ -10,6 +10,10 @@ double get_dt(double vy) {
 		return (0.25 * fw_get_delta_Y()) / vy;
 }
 
+double get_edt(double et, double time) {
+		return (et - time);
+}
+
 /*
  * Calculate the x position
  */

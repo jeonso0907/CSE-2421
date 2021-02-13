@@ -18,8 +18,14 @@ struct Sim {
 	void *list;
 };
 
-void insert_struct(struct Firework *f);
+void to_dynamic_memory(struct Firework **fc_ptr);
+void iterate_struct(struct Sim *s);
+void iterate_print(struct Sim *s);
+int insert_struct(struct Firework *f);
 void delete_struct(struct Sim *s);
+
 void run_simulate(struct Sim *s);
+void main_output(struct Firework *f, int num_allocated);
 
 double get_dt(double vy);
+
