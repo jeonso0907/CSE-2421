@@ -759,9 +759,9 @@ A40FA74E at  (  76.73,  132.31)'  (  30.00,   59.88) fps with 0.942 sec
 F70FA74E at  (   0.00,  215.92)'  (   0.00,   54.82) fps with 0.663 sec
 C10FA74E at  (-107.16,  155.40)'  ( -25.00,    0.69) fps with 0.413 sec
 A40FA74E at  (  77.60,  134.03)'  (  30.00,   58.95) fps with 0.913 sec
+
+
 RANGE SAFETY WARNING: C10FA74E is falling at 155.4' alt and -107.9' downrange with 0.385s till detonation.
-
-
  At ET =  3.115 (3.115384615384608) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 F70FA74E at  (   0.00,  217.49)'  (   0.00,   53.90) fps with 0.635 sec
@@ -864,7 +864,6 @@ DIAGNOSTIC: Freeing firework with code C10FA74E.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
-
  At ET =  3.519 (3.519230769230761) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 F70FA74E at  (   0.00,  236.63)'  (   0.00,   40.90) fps with 0.231 sec
@@ -920,9 +919,8 @@ A40FA74E at  (  97.50,  166.06)'  (  30.00,   37.61) fps with 0.250 sec
 Color #7 starburst at (  0.00, 245.22)'
 Flash at Flash at (  0.00, 245.22)'
 Boom at (  0.00, 245.22)'
-DIAGNOSTIC: Freeing firework with code F70FA74E.  1 freed.
+DIAGNOSTIC: Freeing firework with code F70FA74E.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
-
 
 
  At ET =  3.779 (3.778846153846144) second:
@@ -965,5 +963,6 @@ A40FA74E at  ( 103.56,  173.00)'  (  30.00,   31.11) fps with 0.048 sec
 A40FA74E at  ( 104.42,  173.88)'  (  30.00,   30.18) fps with 0.019 sec
 Color #4 starburst at (105.00, 174.46)'
 Boom at (105.00, 174.46)'
-DIAGNOSTIC: Freeing firework with code A40FA74E.  1 freed.
+DIAGNOSTIC: Freeing firework with code A40FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
+

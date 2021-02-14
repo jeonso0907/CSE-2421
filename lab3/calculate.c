@@ -2,6 +2,11 @@
 
 #include "struct.h"
 #include "libfire.h"
+#include "calculate.h"
+
+void get_et(struct Sim *s) {
+		s->et += s->dt;
+}
 
 /*
  * Calculate the delta time

@@ -4,11 +4,19 @@
 #include "libfire.h"
 #include "debug.h"
 #include "linkedlist.h"
+#include "output.h"
+#include "memory.h"
+#include "memory_func.h"
 
-void run_simulate(struct Firework *f) {
+void call_output(struct Sim *s) {
+		if (TEXT) call_text_output(s);
+		if (GRAPHICS) call_graphic_output(s);
+}
+
+void run_simulate(struct Sim *s) {
 		int i = 0;
-		f->sim->dt = least_struct(f);
-		while (some_struct(f)) {
-				if (TEXT) main_output(f);
+		s->dt = least_struct(s, &get_least_dt);
+		while (some_struct(s)) {
+				call_output(s);
 		}
 }

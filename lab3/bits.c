@@ -1,7 +1,7 @@
 /* Sooyoung Jeon */
 
-#include <stdio.h>
 #include "struct.h"
+#include "bits.h"
 
 /*
  * Shifts and masks the bits to get the result

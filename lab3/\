@@ -27,11 +27,11 @@ void firework_setup(struct Firework **fc_ptr1, struct Firework **fc_ptr2, struct
 }
 
 void iterate_struct(struct Sim *s, void (*func_ptr)(void *data)) {
-		iterate(s->list, func_ptr);
+		iterate(f->sim->list, func_ptr);
 }
 
-void sort_struct(struct Sim *s) {
-		sort(s->list, sort_y);
+void sort_struct(struct Firework *f) {
+		sort(f->sim->list, sort_y);
 }
 
 void insert_struct(struct Firework *f) {
@@ -41,8 +41,8 @@ void insert_struct(struct Firework *f) {
 		num_allocated++;
 }
 
-void deleteSome_struct(struct Sim *s, void (*func_ptr)(void *data)) {
-		deleteSome(&s->list, fuse_over, func_ptr, TEXT); 
+void deleteSome_struct(struct Firework *f) {
+		deleteSome(&f->sim->list, fuse_over, free_output, TEXT); 
 }
 
 double least_struct(struct Sim *s, double (*func_ptr)(void *data)) {

@@ -4,8 +4,9 @@
 #include <stdlib.h>
 #include "struct.h"
 #include "debug.h"
-#include "linkedlist.h"
 #include "libfire.h"
+#include "simulate.h"
+#include "memory.h"
 
 void run_func(struct Firework *rocket, void (*func_ptr)(struct Firework *f)) {
 		func_ptr(rocket);
@@ -19,7 +20,7 @@ void read_struct(struct Firework *f) {
 				firework_setup(&fptr, &f, &sim_ptr);
 				insert_struct(fptr);
 		}
-		run_simulate(fptr);
+		run_simulate(sim_ptr);
 }
 
 int main() {
@@ -28,6 +29,5 @@ int main() {
 				run_func(rocket, &read_struct);
 				if (GRAPHICS) fw_teardown();
 		}
-
 		return 0;
 }
