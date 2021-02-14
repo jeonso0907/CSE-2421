@@ -5,7 +5,10 @@
 #include "debug.h"
 #include "linkedlist.h"
 
-void run_simulate(struct Sim *s) {
-			s->et = now();
-			iterate_print(s);	
+void run_simulate(struct Firework *f) {
+		int i = 0;
+		f->sim->dt = least_struct(f);
+		while (some_struct(f)) {
+				if (TEXT) main_output(f);
+		}
 }
