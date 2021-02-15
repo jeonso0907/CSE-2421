@@ -15,7 +15,7 @@
 void draw_dot(void *data) {
 		struct Firework *f;
 		f = data;
-		fw_dot(get_color(f->hex), f->x, f->y);
+		if (f->y > 0) fw_dot(get_color(f->hex), f->x, f->y);
 }
 
 void draw_star(struct Firework *f) {
@@ -24,9 +24,12 @@ void draw_star(struct Firework *f) {
 
 void draw_effect(void *data) {
 		struct Firework *f = data;
-		draw_star(f);
-		if (get_flash(f->hex)) fw_flash();
-		if (get_bang(f->hex)) fw_bang();
+		double y = f->y, vy = f->vy, edt = effective_dt(f), next_y = 0;
+		next_y = get_y(y, vy, edt);
+		if (next_y > 0)draw_star(f);
+		if (get_flash(f->hex) && next_y > 0) fw_flash();
+		if (get_bang(f->hex) && next_y > 0) fw_bang();
+		if (f->fuse > 0 && next_y < 0) fw_status("RANGE SAFETY: Impact!");
 }
 
 void draw_fade(struct Sim *s) {
