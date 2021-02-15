@@ -17,31 +17,37 @@ double effective_dt(struct Firework *f) {
 		double edt = 0;
 		if (f->sim->et < f->time) edt = 0;
 		else if (f->sim->et > f->time + f->sim->dt) edt = f->sim->dt;
-		else edt = (get_edt(f->sim->et, f->time));  
-		if ((edt > 0) && (f->fuse < edt)) edt = f->fuse;
+		else edt = get_edt(f->sim->et, f->time);
+		if ((edt > 0) && (f->fuse < edt) && (f->fuse + f->time > f->sim->et)) edt = f->fuse;
 		return edt;
 }
 
-void last_update(struct Firework *f) {
-		double edt = 0, curr_y = 0;
-		curr_y = f->y;
+void update_data_continue(struct Firework *f) {
+		double edt = 0;
 		edt = effective_dt(f);
 		f->fuse -= edt;
 		f->x = get_x(f->x, f->vx, edt);
 		f->y = get_y(f->y, f->vy, edt);
 		f->vy = get_vy(f->vy, edt);
-		if (curr_y > 0 && f->y < 0) range_safety_output(f);
 }
 
 int fuse_over(void *data) {
 		struct Firework *f; 
+		double edt = 0;
 		int is_free = 0;
 		f = data;
-		if (get_y(f->y, f->vy, effective_dt(f)) < 0) {
-				last_update(f);
+		edt = effective_dt(f);
+		if (get_y(f->y, f->vy, edt) < 0) {
 				is_free = 1;
+				update_data_continue(f);
 		}
-		return (is_free  || ((f->time < f->sim->et) && (f->fuse < f->sim->dt)));
+		return (is_free  || ((f->time < f->sim->et) && (f->fuse <= edt)));
+}
+
+int is_free(void *data) {
+		struct Firework *f = data;
+		double edt = effective_dt(f);
+		return (get_y(f->y, f->vy, edt) < 0 || ((f->time < f->sim->et) && (f->fuse <= edt)));
 }
 
 
@@ -49,14 +55,7 @@ void update_data(void *data) {
 		double edt = 0, curr_vy = 0, curr_y = 0;
 		struct Firework *f;
 		f = data;
-		curr_vy = f->vy;
-		curr_y = f->y;
-		edt = effective_dt(f);
-		f->fuse -= edt;
-		f->x = get_x(f->x, f->vx, edt);
-		f->y = get_y(f->y, f->vy, edt);
-		f->vy = get_vy(f->vy, edt);
-		if (curr_vy > 0 && f->vy < 0) range_safety_output(f);
+		update_data_continue(f);		
 }
 
 double get_least_dt(void *data) {
@@ -85,4 +84,9 @@ int first_time(void *data1, void *data2) {
 int sort_y(void *data1, void *data2) {
 		struct Firework *f1 = data1, *f2 = data2;
 		return (f1->y > f2->y);
+}
+
+void iterate_range_safety(void *data) {
+		struct Firework *f = data;
+		range_safety_output(f);
 }

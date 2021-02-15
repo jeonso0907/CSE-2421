@@ -1,1096 +1,1250 @@
-DIAGNOSTIC: Allocating space for code A60A87BA.  1 allocated.
+DIAGNOSTIC: Allocating space for code 810FA74E.  1 allocated.
 DIAGNOSTIC: 1 nodes allocated.
-DIAGNOSTIC: Allocating space for code C50A87BA.  2 allocated.
+DIAGNOSTIC: Allocating space for code 820FA74E.  2 allocated.
 DIAGNOSTIC: 2 nodes allocated.
-DIAGNOSTIC: Allocating space for code F70A87BA.  3 allocated.
+DIAGNOSTIC: Allocating space for code 830FA74E.  3 allocated.
 DIAGNOSTIC: 3 nodes allocated.
+DIAGNOSTIC: Allocating space for code 840FA74E.  4 allocated.
+DIAGNOSTIC: 4 nodes allocated.
+DIAGNOSTIC: Allocating space for code 850FA74E.  5 allocated.
+DIAGNOSTIC: 5 nodes allocated.
+DIAGNOSTIC: Allocating space for code 860FA74E.  6 allocated.
+DIAGNOSTIC: 6 nodes allocated.
+DIAGNOSTIC: Allocating space for code 870FA74E.  7 allocated.
+DIAGNOSTIC: 7 nodes allocated.
 
  At ET =  0.000 (0.000000000000000) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-140.00,    0.00)'  (  39.70,  113.44) fps with 7.209 sec
-C50A87BA at  ( 100.00,    0.00)'  Holding until 0.011
-A60A87BA at  (   0.00,    0.00)'  Holding until 0.100
+810FA74E at  (-150.00,    0.00)'  (   0.00,  130.00) fps with 1.000 sec
+820FA74E at  (-100.00,    0.00)'  (   0.00,  130.00) fps with 1.250 sec
+830FA74E at  ( -50.00,    0.00)'  (   0.00,  130.00) fps with 1.500 sec
+840FA74E at  (   0.00,    0.00)'  (   0.00,  130.00) fps with 1.750 sec
+850FA74E at  (  50.00,    0.00)'  (   0.00,  130.00) fps with 2.000 sec
+860FA74E at  ( 100.00,    0.00)'  (   0.00,  130.00) fps with 2.250 sec
+870FA74E at  ( 150.00,    0.00)'  (   0.00,  130.00) fps with 2.500 sec
+effective_dt: 810FA74E LAUNCH ET=0.0288, L=0.0000, F=1.0000 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E LAUNCH ET=0.0288, L=0.0000, F=1.2500 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E LAUNCH ET=0.0288, L=0.0000, F=1.5000 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E LAUNCH ET=0.0288, L=0.0000, F=1.7500 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E LAUNCH ET=0.0288, L=0.0000, F=2.0000 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E LAUNCH ET=0.0288, L=0.0000, F=2.2500 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E LAUNCH ET=0.0288, L=0.0000, F=2.5000 dt=0.028846. rval= 0.0288
 
 
- At ET =  0.033 (0.033057122708039) second:
+ At ET =  0.029 (0.028846153846154) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-138.69,    3.73)'  (  39.70,  112.38) fps with 7.176 sec
-C50A87BA at  ( 100.00,    2.20)'  (   0.00,   99.29) fps with 0.011 sec
-A60A87BA at  (   0.00,    0.00)'  Holding until 0.100
-Color #5 starburst at (100.00,   3.29)'
-Flash at (100.00,   3.29)'
-DIAGNOSTIC: Freeing firework with code C50A87BA.  1 freed.
+810FA74E at  (-150.00,    3.74)'  (   0.00,  129.07) fps with 0.971 sec
+820FA74E at  (-100.00,    3.74)'  (   0.00,  129.07) fps with 1.221 sec
+830FA74E at  ( -50.00,    3.74)'  (   0.00,  129.07) fps with 1.471 sec
+840FA74E at  (   0.00,    3.74)'  (   0.00,  129.07) fps with 1.721 sec
+850FA74E at  (  50.00,    3.74)'  (   0.00,  129.07) fps with 1.971 sec
+860FA74E at  ( 100.00,    3.74)'  (   0.00,  129.07) fps with 2.221 sec
+870FA74E at  ( 150.00,    3.74)'  (   0.00,  129.07) fps with 2.471 sec
+effective_dt: 810FA74E IN AIR  ET=0.0577, L=0.0000, F=0.9712 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.0577, L=0.0000, F=1.2212 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.0577, L=0.0000, F=1.4712 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.0577, L=0.0000, F=1.7212 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.0577, L=0.0000, F=1.9712 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.0577, L=0.0000, F=2.2212 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.0577, L=0.0000, F=2.4712 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.058 (0.057692307692308) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,    7.45)'  (   0.00,  128.14) fps with 0.942 sec
+820FA74E at  (-100.00,    7.45)'  (   0.00,  128.14) fps with 1.192 sec
+830FA74E at  ( -50.00,    7.45)'  (   0.00,  128.14) fps with 1.442 sec
+840FA74E at  (   0.00,    7.45)'  (   0.00,  128.14) fps with 1.692 sec
+850FA74E at  (  50.00,    7.45)'  (   0.00,  128.14) fps with 1.942 sec
+860FA74E at  ( 100.00,    7.45)'  (   0.00,  128.14) fps with 2.192 sec
+870FA74E at  ( 150.00,    7.45)'  (   0.00,  128.14) fps with 2.442 sec
+effective_dt: 810FA74E IN AIR  ET=0.0865, L=0.0000, F=0.9423 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.0865, L=0.0000, F=1.1923 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.0865, L=0.0000, F=1.4423 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.0865, L=0.0000, F=1.6923 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.0865, L=0.0000, F=1.9423 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.0865, L=0.0000, F=2.1923 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.0865, L=0.0000, F=2.4423 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.087 (0.086538461538462) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   11.13)'  (   0.00,  127.22) fps with 0.913 sec
+820FA74E at  (-100.00,   11.13)'  (   0.00,  127.22) fps with 1.163 sec
+830FA74E at  ( -50.00,   11.13)'  (   0.00,  127.22) fps with 1.413 sec
+840FA74E at  (   0.00,   11.13)'  (   0.00,  127.22) fps with 1.663 sec
+850FA74E at  (  50.00,   11.13)'  (   0.00,  127.22) fps with 1.913 sec
+860FA74E at  ( 100.00,   11.13)'  (   0.00,  127.22) fps with 2.163 sec
+870FA74E at  ( 150.00,   11.13)'  (   0.00,  127.22) fps with 2.413 sec
+effective_dt: 810FA74E IN AIR  ET=0.1154, L=0.0000, F=0.9135 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.1154, L=0.0000, F=1.1635 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.1154, L=0.0000, F=1.4135 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.1154, L=0.0000, F=1.6635 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.1154, L=0.0000, F=1.9135 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.1154, L=0.0000, F=2.1635 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.1154, L=0.0000, F=2.4135 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.115 (0.115384615384615) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   14.79)'  (   0.00,  126.29) fps with 0.885 sec
+820FA74E at  (-100.00,   14.79)'  (   0.00,  126.29) fps with 1.135 sec
+830FA74E at  ( -50.00,   14.79)'  (   0.00,  126.29) fps with 1.385 sec
+840FA74E at  (   0.00,   14.79)'  (   0.00,  126.29) fps with 1.635 sec
+850FA74E at  (  50.00,   14.79)'  (   0.00,  126.29) fps with 1.885 sec
+860FA74E at  ( 100.00,   14.79)'  (   0.00,  126.29) fps with 2.135 sec
+870FA74E at  ( 150.00,   14.79)'  (   0.00,  126.29) fps with 2.385 sec
+effective_dt: 810FA74E IN AIR  ET=0.1442, L=0.0000, F=0.8846 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.1442, L=0.0000, F=1.1346 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.1442, L=0.0000, F=1.3846 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.1442, L=0.0000, F=1.6346 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.1442, L=0.0000, F=1.8846 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.1442, L=0.0000, F=2.1346 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.1442, L=0.0000, F=2.3846 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.144 (0.144230769230769) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   18.42)'  (   0.00,  125.36) fps with 0.856 sec
+820FA74E at  (-100.00,   18.42)'  (   0.00,  125.36) fps with 1.106 sec
+830FA74E at  ( -50.00,   18.42)'  (   0.00,  125.36) fps with 1.356 sec
+840FA74E at  (   0.00,   18.42)'  (   0.00,  125.36) fps with 1.606 sec
+850FA74E at  (  50.00,   18.42)'  (   0.00,  125.36) fps with 1.856 sec
+860FA74E at  ( 100.00,   18.42)'  (   0.00,  125.36) fps with 2.106 sec
+870FA74E at  ( 150.00,   18.42)'  (   0.00,  125.36) fps with 2.356 sec
+effective_dt: 810FA74E IN AIR  ET=0.1731, L=0.0000, F=0.8558 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.1731, L=0.0000, F=1.1058 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.1731, L=0.0000, F=1.3558 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.1731, L=0.0000, F=1.6058 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.1731, L=0.0000, F=1.8558 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.1731, L=0.0000, F=2.1058 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.1731, L=0.0000, F=2.3558 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.173 (0.173076923076923) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   22.02)'  (   0.00,  124.43) fps with 0.827 sec
+820FA74E at  (-100.00,   22.02)'  (   0.00,  124.43) fps with 1.077 sec
+830FA74E at  ( -50.00,   22.02)'  (   0.00,  124.43) fps with 1.327 sec
+840FA74E at  (   0.00,   22.02)'  (   0.00,  124.43) fps with 1.577 sec
+850FA74E at  (  50.00,   22.02)'  (   0.00,  124.43) fps with 1.827 sec
+860FA74E at  ( 100.00,   22.02)'  (   0.00,  124.43) fps with 2.077 sec
+870FA74E at  ( 150.00,   22.02)'  (   0.00,  124.43) fps with 2.327 sec
+effective_dt: 810FA74E IN AIR  ET=0.2019, L=0.0000, F=0.8269 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.2019, L=0.0000, F=1.0769 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.2019, L=0.0000, F=1.3269 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.2019, L=0.0000, F=1.5769 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.2019, L=0.0000, F=1.8269 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.2019, L=0.0000, F=2.0769 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.2019, L=0.0000, F=2.3269 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.202 (0.201923076923077) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   25.59)'  (   0.00,  123.50) fps with 0.798 sec
+820FA74E at  (-100.00,   25.59)'  (   0.00,  123.50) fps with 1.048 sec
+830FA74E at  ( -50.00,   25.59)'  (   0.00,  123.50) fps with 1.298 sec
+840FA74E at  (   0.00,   25.59)'  (   0.00,  123.50) fps with 1.548 sec
+850FA74E at  (  50.00,   25.59)'  (   0.00,  123.50) fps with 1.798 sec
+860FA74E at  ( 100.00,   25.59)'  (   0.00,  123.50) fps with 2.048 sec
+870FA74E at  ( 150.00,   25.59)'  (   0.00,  123.50) fps with 2.298 sec
+effective_dt: 810FA74E IN AIR  ET=0.2308, L=0.0000, F=0.7981 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.2308, L=0.0000, F=1.0481 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.2308, L=0.0000, F=1.2981 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.2308, L=0.0000, F=1.5481 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.2308, L=0.0000, F=1.7981 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.2308, L=0.0000, F=2.0481 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.2308, L=0.0000, F=2.2981 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.231 (0.230769230769231) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   29.14)'  (   0.00,  122.58) fps with 0.769 sec
+820FA74E at  (-100.00,   29.14)'  (   0.00,  122.58) fps with 1.019 sec
+830FA74E at  ( -50.00,   29.14)'  (   0.00,  122.58) fps with 1.269 sec
+840FA74E at  (   0.00,   29.14)'  (   0.00,  122.58) fps with 1.519 sec
+850FA74E at  (  50.00,   29.14)'  (   0.00,  122.58) fps with 1.769 sec
+860FA74E at  ( 100.00,   29.14)'  (   0.00,  122.58) fps with 2.019 sec
+870FA74E at  ( 150.00,   29.14)'  (   0.00,  122.58) fps with 2.269 sec
+effective_dt: 810FA74E IN AIR  ET=0.2596, L=0.0000, F=0.7692 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.2596, L=0.0000, F=1.0192 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.2596, L=0.0000, F=1.2692 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.2596, L=0.0000, F=1.5192 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.2596, L=0.0000, F=1.7692 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.2596, L=0.0000, F=2.0192 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.2596, L=0.0000, F=2.2692 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.260 (0.259615384615385) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   32.67)'  (   0.00,  121.65) fps with 0.740 sec
+820FA74E at  (-100.00,   32.67)'  (   0.00,  121.65) fps with 0.990 sec
+830FA74E at  ( -50.00,   32.67)'  (   0.00,  121.65) fps with 1.240 sec
+840FA74E at  (   0.00,   32.67)'  (   0.00,  121.65) fps with 1.490 sec
+850FA74E at  (  50.00,   32.67)'  (   0.00,  121.65) fps with 1.740 sec
+860FA74E at  ( 100.00,   32.67)'  (   0.00,  121.65) fps with 1.990 sec
+870FA74E at  ( 150.00,   32.67)'  (   0.00,  121.65) fps with 2.240 sec
+effective_dt: 810FA74E IN AIR  ET=0.2885, L=0.0000, F=0.7404 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.2885, L=0.0000, F=0.9904 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.2885, L=0.0000, F=1.2404 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.2885, L=0.0000, F=1.4904 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.2885, L=0.0000, F=1.7404 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.2885, L=0.0000, F=1.9904 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.2885, L=0.0000, F=2.2404 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.288 (0.288461538461538) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   36.16)'  (   0.00,  120.72) fps with 0.712 sec
+820FA74E at  (-100.00,   36.16)'  (   0.00,  120.72) fps with 0.962 sec
+830FA74E at  ( -50.00,   36.16)'  (   0.00,  120.72) fps with 1.212 sec
+840FA74E at  (   0.00,   36.16)'  (   0.00,  120.72) fps with 1.462 sec
+850FA74E at  (  50.00,   36.16)'  (   0.00,  120.72) fps with 1.712 sec
+860FA74E at  ( 100.00,   36.16)'  (   0.00,  120.72) fps with 1.962 sec
+870FA74E at  ( 150.00,   36.16)'  (   0.00,  120.72) fps with 2.212 sec
+effective_dt: 810FA74E IN AIR  ET=0.3173, L=0.0000, F=0.7115 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.3173, L=0.0000, F=0.9615 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.3173, L=0.0000, F=1.2115 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.3173, L=0.0000, F=1.4615 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.3173, L=0.0000, F=1.7115 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.3173, L=0.0000, F=1.9615 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.3173, L=0.0000, F=2.2115 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.317 (0.317307692307692) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   39.63)'  (   0.00,  119.79) fps with 0.683 sec
+820FA74E at  (-100.00,   39.63)'  (   0.00,  119.79) fps with 0.933 sec
+830FA74E at  ( -50.00,   39.63)'  (   0.00,  119.79) fps with 1.183 sec
+840FA74E at  (   0.00,   39.63)'  (   0.00,  119.79) fps with 1.433 sec
+850FA74E at  (  50.00,   39.63)'  (   0.00,  119.79) fps with 1.683 sec
+860FA74E at  ( 100.00,   39.63)'  (   0.00,  119.79) fps with 1.933 sec
+870FA74E at  ( 150.00,   39.63)'  (   0.00,  119.79) fps with 2.183 sec
+effective_dt: 810FA74E IN AIR  ET=0.3462, L=0.0000, F=0.6827 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.3462, L=0.0000, F=0.9327 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.3462, L=0.0000, F=1.1827 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.3462, L=0.0000, F=1.4327 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.3462, L=0.0000, F=1.6827 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.3462, L=0.0000, F=1.9327 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.3462, L=0.0000, F=2.1827 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.346 (0.346153846153846) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   43.07)'  (   0.00,  118.86) fps with 0.654 sec
+820FA74E at  (-100.00,   43.07)'  (   0.00,  118.86) fps with 0.904 sec
+830FA74E at  ( -50.00,   43.07)'  (   0.00,  118.86) fps with 1.154 sec
+840FA74E at  (   0.00,   43.07)'  (   0.00,  118.86) fps with 1.404 sec
+850FA74E at  (  50.00,   43.07)'  (   0.00,  118.86) fps with 1.654 sec
+860FA74E at  ( 100.00,   43.07)'  (   0.00,  118.86) fps with 1.904 sec
+870FA74E at  ( 150.00,   43.07)'  (   0.00,  118.86) fps with 2.154 sec
+effective_dt: 810FA74E IN AIR  ET=0.3750, L=0.0000, F=0.6538 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.3750, L=0.0000, F=0.9038 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.3750, L=0.0000, F=1.1538 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.3750, L=0.0000, F=1.4038 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.3750, L=0.0000, F=1.6538 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.3750, L=0.0000, F=1.9038 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.3750, L=0.0000, F=2.1538 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.375 (0.375000000000000) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   46.49)'  (   0.00,  117.93) fps with 0.625 sec
+820FA74E at  (-100.00,   46.49)'  (   0.00,  117.93) fps with 0.875 sec
+830FA74E at  ( -50.00,   46.49)'  (   0.00,  117.93) fps with 1.125 sec
+840FA74E at  (   0.00,   46.49)'  (   0.00,  117.93) fps with 1.375 sec
+850FA74E at  (  50.00,   46.49)'  (   0.00,  117.93) fps with 1.625 sec
+860FA74E at  ( 100.00,   46.49)'  (   0.00,  117.93) fps with 1.875 sec
+870FA74E at  ( 150.00,   46.49)'  (   0.00,  117.93) fps with 2.125 sec
+effective_dt: 810FA74E IN AIR  ET=0.4038, L=0.0000, F=0.6250 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.4038, L=0.0000, F=0.8750 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.4038, L=0.0000, F=1.1250 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.4038, L=0.0000, F=1.3750 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.4038, L=0.0000, F=1.6250 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.4038, L=0.0000, F=1.8750 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.4038, L=0.0000, F=2.1250 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.404 (0.403846153846154) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   49.88)'  (   0.00,  117.01) fps with 0.596 sec
+820FA74E at  (-100.00,   49.88)'  (   0.00,  117.01) fps with 0.846 sec
+830FA74E at  ( -50.00,   49.88)'  (   0.00,  117.01) fps with 1.096 sec
+840FA74E at  (   0.00,   49.88)'  (   0.00,  117.01) fps with 1.346 sec
+850FA74E at  (  50.00,   49.88)'  (   0.00,  117.01) fps with 1.596 sec
+860FA74E at  ( 100.00,   49.88)'  (   0.00,  117.01) fps with 1.846 sec
+870FA74E at  ( 150.00,   49.88)'  (   0.00,  117.01) fps with 2.096 sec
+effective_dt: 810FA74E IN AIR  ET=0.4327, L=0.0000, F=0.5962 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.4327, L=0.0000, F=0.8462 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.4327, L=0.0000, F=1.0962 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.4327, L=0.0000, F=1.3462 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.4327, L=0.0000, F=1.5962 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.4327, L=0.0000, F=1.8462 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.4327, L=0.0000, F=2.0962 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.433 (0.432692307692308) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   53.24)'  (   0.00,  116.08) fps with 0.567 sec
+820FA74E at  (-100.00,   53.24)'  (   0.00,  116.08) fps with 0.817 sec
+830FA74E at  ( -50.00,   53.24)'  (   0.00,  116.08) fps with 1.067 sec
+840FA74E at  (   0.00,   53.24)'  (   0.00,  116.08) fps with 1.317 sec
+850FA74E at  (  50.00,   53.24)'  (   0.00,  116.08) fps with 1.567 sec
+860FA74E at  ( 100.00,   53.24)'  (   0.00,  116.08) fps with 1.817 sec
+870FA74E at  ( 150.00,   53.24)'  (   0.00,  116.08) fps with 2.067 sec
+effective_dt: 810FA74E IN AIR  ET=0.4615, L=0.0000, F=0.5673 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.4615, L=0.0000, F=0.8173 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.4615, L=0.0000, F=1.0673 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.4615, L=0.0000, F=1.3173 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.4615, L=0.0000, F=1.5673 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.4615, L=0.0000, F=1.8173 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.4615, L=0.0000, F=2.0673 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.462 (0.461538461538462) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   56.57)'  (   0.00,  115.15) fps with 0.538 sec
+820FA74E at  (-100.00,   56.57)'  (   0.00,  115.15) fps with 0.788 sec
+830FA74E at  ( -50.00,   56.57)'  (   0.00,  115.15) fps with 1.038 sec
+840FA74E at  (   0.00,   56.57)'  (   0.00,  115.15) fps with 1.288 sec
+850FA74E at  (  50.00,   56.57)'  (   0.00,  115.15) fps with 1.538 sec
+860FA74E at  ( 100.00,   56.57)'  (   0.00,  115.15) fps with 1.788 sec
+870FA74E at  ( 150.00,   56.57)'  (   0.00,  115.15) fps with 2.038 sec
+effective_dt: 810FA74E IN AIR  ET=0.4904, L=0.0000, F=0.5385 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.4904, L=0.0000, F=0.7885 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.4904, L=0.0000, F=1.0385 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.4904, L=0.0000, F=1.2885 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.4904, L=0.0000, F=1.5385 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.4904, L=0.0000, F=1.7885 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.4904, L=0.0000, F=2.0385 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.490 (0.490384615384615) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   59.88)'  (   0.00,  114.22) fps with 0.510 sec
+820FA74E at  (-100.00,   59.88)'  (   0.00,  114.22) fps with 0.760 sec
+830FA74E at  ( -50.00,   59.88)'  (   0.00,  114.22) fps with 1.010 sec
+840FA74E at  (   0.00,   59.88)'  (   0.00,  114.22) fps with 1.260 sec
+850FA74E at  (  50.00,   59.88)'  (   0.00,  114.22) fps with 1.510 sec
+860FA74E at  ( 100.00,   59.88)'  (   0.00,  114.22) fps with 1.760 sec
+870FA74E at  ( 150.00,   59.88)'  (   0.00,  114.22) fps with 2.010 sec
+effective_dt: 810FA74E IN AIR  ET=0.5192, L=0.0000, F=0.5096 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.5192, L=0.0000, F=0.7596 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.5192, L=0.0000, F=1.0096 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.5192, L=0.0000, F=1.2596 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.5192, L=0.0000, F=1.5096 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.5192, L=0.0000, F=1.7596 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.5192, L=0.0000, F=2.0096 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.519 (0.519230769230769) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   63.16)'  (   0.00,  113.29) fps with 0.481 sec
+820FA74E at  (-100.00,   63.16)'  (   0.00,  113.29) fps with 0.731 sec
+830FA74E at  ( -50.00,   63.16)'  (   0.00,  113.29) fps with 0.981 sec
+840FA74E at  (   0.00,   63.16)'  (   0.00,  113.29) fps with 1.231 sec
+850FA74E at  (  50.00,   63.16)'  (   0.00,  113.29) fps with 1.481 sec
+860FA74E at  ( 100.00,   63.16)'  (   0.00,  113.29) fps with 1.731 sec
+870FA74E at  ( 150.00,   63.16)'  (   0.00,  113.29) fps with 1.981 sec
+effective_dt: 810FA74E IN AIR  ET=0.5481, L=0.0000, F=0.4808 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.5481, L=0.0000, F=0.7308 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.5481, L=0.0000, F=0.9808 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.5481, L=0.0000, F=1.2308 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.5481, L=0.0000, F=1.4808 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.5481, L=0.0000, F=1.7308 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.5481, L=0.0000, F=1.9808 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.548 (0.548076923076923) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   66.42)'  (   0.00,  112.37) fps with 0.452 sec
+820FA74E at  (-100.00,   66.42)'  (   0.00,  112.37) fps with 0.702 sec
+830FA74E at  ( -50.00,   66.42)'  (   0.00,  112.37) fps with 0.952 sec
+840FA74E at  (   0.00,   66.42)'  (   0.00,  112.37) fps with 1.202 sec
+850FA74E at  (  50.00,   66.42)'  (   0.00,  112.37) fps with 1.452 sec
+860FA74E at  ( 100.00,   66.42)'  (   0.00,  112.37) fps with 1.702 sec
+870FA74E at  ( 150.00,   66.42)'  (   0.00,  112.37) fps with 1.952 sec
+effective_dt: 810FA74E IN AIR  ET=0.5769, L=0.0000, F=0.4519 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.5769, L=0.0000, F=0.7019 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.5769, L=0.0000, F=0.9519 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.5769, L=0.0000, F=1.2019 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.5769, L=0.0000, F=1.4519 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.5769, L=0.0000, F=1.7019 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.5769, L=0.0000, F=1.9519 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.577 (0.576923076923077) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   69.65)'  (   0.00,  111.44) fps with 0.423 sec
+820FA74E at  (-100.00,   69.65)'  (   0.00,  111.44) fps with 0.673 sec
+830FA74E at  ( -50.00,   69.65)'  (   0.00,  111.44) fps with 0.923 sec
+840FA74E at  (   0.00,   69.65)'  (   0.00,  111.44) fps with 1.173 sec
+850FA74E at  (  50.00,   69.65)'  (   0.00,  111.44) fps with 1.423 sec
+860FA74E at  ( 100.00,   69.65)'  (   0.00,  111.44) fps with 1.673 sec
+870FA74E at  ( 150.00,   69.65)'  (   0.00,  111.44) fps with 1.923 sec
+effective_dt: 810FA74E IN AIR  ET=0.6058, L=0.0000, F=0.4231 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.6058, L=0.0000, F=0.6731 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.6058, L=0.0000, F=0.9231 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.6058, L=0.0000, F=1.1731 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.6058, L=0.0000, F=1.4231 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.6058, L=0.0000, F=1.6731 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.6058, L=0.0000, F=1.9231 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.606 (0.605769230769231) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   72.85)'  (   0.00,  110.51) fps with 0.394 sec
+820FA74E at  (-100.00,   72.85)'  (   0.00,  110.51) fps with 0.644 sec
+830FA74E at  ( -50.00,   72.85)'  (   0.00,  110.51) fps with 0.894 sec
+840FA74E at  (   0.00,   72.85)'  (   0.00,  110.51) fps with 1.144 sec
+850FA74E at  (  50.00,   72.85)'  (   0.00,  110.51) fps with 1.394 sec
+860FA74E at  ( 100.00,   72.85)'  (   0.00,  110.51) fps with 1.644 sec
+870FA74E at  ( 150.00,   72.85)'  (   0.00,  110.51) fps with 1.894 sec
+effective_dt: 810FA74E IN AIR  ET=0.6346, L=0.0000, F=0.3942 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.6346, L=0.0000, F=0.6442 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.6346, L=0.0000, F=0.8942 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.6346, L=0.0000, F=1.1442 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.6346, L=0.0000, F=1.3942 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.6346, L=0.0000, F=1.6442 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.6346, L=0.0000, F=1.8942 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.635 (0.634615384615385) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   76.02)'  (   0.00,  109.58) fps with 0.365 sec
+820FA74E at  (-100.00,   76.02)'  (   0.00,  109.58) fps with 0.615 sec
+830FA74E at  ( -50.00,   76.02)'  (   0.00,  109.58) fps with 0.865 sec
+840FA74E at  (   0.00,   76.02)'  (   0.00,  109.58) fps with 1.115 sec
+850FA74E at  (  50.00,   76.02)'  (   0.00,  109.58) fps with 1.365 sec
+860FA74E at  ( 100.00,   76.02)'  (   0.00,  109.58) fps with 1.615 sec
+870FA74E at  ( 150.00,   76.02)'  (   0.00,  109.58) fps with 1.865 sec
+effective_dt: 810FA74E IN AIR  ET=0.6635, L=0.0000, F=0.3654 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.6635, L=0.0000, F=0.6154 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.6635, L=0.0000, F=0.8654 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.6635, L=0.0000, F=1.1154 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.6635, L=0.0000, F=1.3654 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.6635, L=0.0000, F=1.6154 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.6635, L=0.0000, F=1.8654 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.663 (0.663461538461539) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   79.17)'  (   0.00,  108.65) fps with 0.337 sec
+820FA74E at  (-100.00,   79.17)'  (   0.00,  108.65) fps with 0.587 sec
+830FA74E at  ( -50.00,   79.17)'  (   0.00,  108.65) fps with 0.837 sec
+840FA74E at  (   0.00,   79.17)'  (   0.00,  108.65) fps with 1.087 sec
+850FA74E at  (  50.00,   79.17)'  (   0.00,  108.65) fps with 1.337 sec
+860FA74E at  ( 100.00,   79.17)'  (   0.00,  108.65) fps with 1.587 sec
+870FA74E at  ( 150.00,   79.17)'  (   0.00,  108.65) fps with 1.837 sec
+effective_dt: 810FA74E IN AIR  ET=0.6923, L=0.0000, F=0.3365 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.6923, L=0.0000, F=0.5865 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.6923, L=0.0000, F=0.8365 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.6923, L=0.0000, F=1.0865 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.6923, L=0.0000, F=1.3365 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.6923, L=0.0000, F=1.5865 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.6923, L=0.0000, F=1.8365 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.692 (0.692307692307692) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   82.29)'  (   0.00,  107.73) fps with 0.308 sec
+820FA74E at  (-100.00,   82.29)'  (   0.00,  107.73) fps with 0.558 sec
+830FA74E at  ( -50.00,   82.29)'  (   0.00,  107.73) fps with 0.808 sec
+840FA74E at  (   0.00,   82.29)'  (   0.00,  107.73) fps with 1.058 sec
+850FA74E at  (  50.00,   82.29)'  (   0.00,  107.73) fps with 1.308 sec
+860FA74E at  ( 100.00,   82.29)'  (   0.00,  107.73) fps with 1.558 sec
+870FA74E at  ( 150.00,   82.29)'  (   0.00,  107.73) fps with 1.808 sec
+effective_dt: 810FA74E IN AIR  ET=0.7212, L=0.0000, F=0.3077 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.7212, L=0.0000, F=0.5577 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.7212, L=0.0000, F=0.8077 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.7212, L=0.0000, F=1.0577 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.7212, L=0.0000, F=1.3077 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.7212, L=0.0000, F=1.5577 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.7212, L=0.0000, F=1.8077 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.721 (0.721153846153846) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   85.38)'  (   0.00,  106.80) fps with 0.279 sec
+820FA74E at  (-100.00,   85.38)'  (   0.00,  106.80) fps with 0.529 sec
+830FA74E at  ( -50.00,   85.38)'  (   0.00,  106.80) fps with 0.779 sec
+840FA74E at  (   0.00,   85.38)'  (   0.00,  106.80) fps with 1.029 sec
+850FA74E at  (  50.00,   85.38)'  (   0.00,  106.80) fps with 1.279 sec
+860FA74E at  ( 100.00,   85.38)'  (   0.00,  106.80) fps with 1.529 sec
+870FA74E at  ( 150.00,   85.38)'  (   0.00,  106.80) fps with 1.779 sec
+effective_dt: 810FA74E IN AIR  ET=0.7500, L=0.0000, F=0.2788 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.7500, L=0.0000, F=0.5288 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.7500, L=0.0000, F=0.7788 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.7500, L=0.0000, F=1.0288 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.7500, L=0.0000, F=1.2788 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.7500, L=0.0000, F=1.5288 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.7500, L=0.0000, F=1.7788 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.750 (0.750000000000000) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   88.45)'  (   0.00,  105.87) fps with 0.250 sec
+820FA74E at  (-100.00,   88.45)'  (   0.00,  105.87) fps with 0.500 sec
+830FA74E at  ( -50.00,   88.45)'  (   0.00,  105.87) fps with 0.750 sec
+840FA74E at  (   0.00,   88.45)'  (   0.00,  105.87) fps with 1.000 sec
+850FA74E at  (  50.00,   88.45)'  (   0.00,  105.87) fps with 1.250 sec
+860FA74E at  ( 100.00,   88.45)'  (   0.00,  105.87) fps with 1.500 sec
+870FA74E at  ( 150.00,   88.45)'  (   0.00,  105.87) fps with 1.750 sec
+effective_dt: 810FA74E IN AIR  ET=0.7788, L=0.0000, F=0.2500 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.7788, L=0.0000, F=0.5000 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.7788, L=0.0000, F=0.7500 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.7788, L=0.0000, F=1.0000 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.7788, L=0.0000, F=1.2500 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.7788, L=0.0000, F=1.5000 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.7788, L=0.0000, F=1.7500 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.779 (0.778846153846154) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   91.49)'  (   0.00,  104.94) fps with 0.221 sec
+820FA74E at  (-100.00,   91.49)'  (   0.00,  104.94) fps with 0.471 sec
+830FA74E at  ( -50.00,   91.49)'  (   0.00,  104.94) fps with 0.721 sec
+840FA74E at  (   0.00,   91.49)'  (   0.00,  104.94) fps with 0.971 sec
+850FA74E at  (  50.00,   91.49)'  (   0.00,  104.94) fps with 1.221 sec
+860FA74E at  ( 100.00,   91.49)'  (   0.00,  104.94) fps with 1.471 sec
+870FA74E at  ( 150.00,   91.49)'  (   0.00,  104.94) fps with 1.721 sec
+effective_dt: 810FA74E IN AIR  ET=0.8077, L=0.0000, F=0.2212 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.8077, L=0.0000, F=0.4712 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.8077, L=0.0000, F=0.7212 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.8077, L=0.0000, F=0.9712 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.8077, L=0.0000, F=1.2212 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.8077, L=0.0000, F=1.4712 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.8077, L=0.0000, F=1.7212 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.808 (0.807692307692308) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   94.51)'  (   0.00,  104.01) fps with 0.192 sec
+820FA74E at  (-100.00,   94.51)'  (   0.00,  104.01) fps with 0.442 sec
+830FA74E at  ( -50.00,   94.51)'  (   0.00,  104.01) fps with 0.692 sec
+840FA74E at  (   0.00,   94.51)'  (   0.00,  104.01) fps with 0.942 sec
+850FA74E at  (  50.00,   94.51)'  (   0.00,  104.01) fps with 1.192 sec
+860FA74E at  ( 100.00,   94.51)'  (   0.00,  104.01) fps with 1.442 sec
+870FA74E at  ( 150.00,   94.51)'  (   0.00,  104.01) fps with 1.692 sec
+effective_dt: 810FA74E IN AIR  ET=0.8365, L=0.0000, F=0.1923 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.8365, L=0.0000, F=0.4423 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.8365, L=0.0000, F=0.6923 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.8365, L=0.0000, F=0.9423 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.8365, L=0.0000, F=1.1923 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.8365, L=0.0000, F=1.4423 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.8365, L=0.0000, F=1.6923 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.837 (0.836538461538462) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,   97.49)'  (   0.00,  103.09) fps with 0.163 sec
+820FA74E at  (-100.00,   97.49)'  (   0.00,  103.09) fps with 0.413 sec
+830FA74E at  ( -50.00,   97.49)'  (   0.00,  103.09) fps with 0.663 sec
+840FA74E at  (   0.00,   97.49)'  (   0.00,  103.09) fps with 0.913 sec
+850FA74E at  (  50.00,   97.49)'  (   0.00,  103.09) fps with 1.163 sec
+860FA74E at  ( 100.00,   97.49)'  (   0.00,  103.09) fps with 1.413 sec
+870FA74E at  ( 150.00,   97.49)'  (   0.00,  103.09) fps with 1.663 sec
+effective_dt: 810FA74E IN AIR  ET=0.8654, L=0.0000, F=0.1635 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.8654, L=0.0000, F=0.4135 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.8654, L=0.0000, F=0.6635 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.8654, L=0.0000, F=0.9135 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.8654, L=0.0000, F=1.1635 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.8654, L=0.0000, F=1.4135 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.8654, L=0.0000, F=1.6635 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.865 (0.865384615384616) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,  100.45)'  (   0.00,  102.16) fps with 0.135 sec
+820FA74E at  (-100.00,  100.45)'  (   0.00,  102.16) fps with 0.385 sec
+830FA74E at  ( -50.00,  100.45)'  (   0.00,  102.16) fps with 0.635 sec
+840FA74E at  (   0.00,  100.45)'  (   0.00,  102.16) fps with 0.885 sec
+850FA74E at  (  50.00,  100.45)'  (   0.00,  102.16) fps with 1.135 sec
+860FA74E at  ( 100.00,  100.45)'  (   0.00,  102.16) fps with 1.385 sec
+870FA74E at  ( 150.00,  100.45)'  (   0.00,  102.16) fps with 1.635 sec
+effective_dt: 810FA74E IN AIR  ET=0.8942, L=0.0000, F=0.1346 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.8942, L=0.0000, F=0.3846 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.8942, L=0.0000, F=0.6346 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.8942, L=0.0000, F=0.8846 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.8942, L=0.0000, F=1.1346 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.8942, L=0.0000, F=1.3846 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.8942, L=0.0000, F=1.6346 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.894 (0.894230769230769) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,  103.39)'  (   0.00,  101.23) fps with 0.106 sec
+820FA74E at  (-100.00,  103.39)'  (   0.00,  101.23) fps with 0.356 sec
+830FA74E at  ( -50.00,  103.39)'  (   0.00,  101.23) fps with 0.606 sec
+840FA74E at  (   0.00,  103.39)'  (   0.00,  101.23) fps with 0.856 sec
+850FA74E at  (  50.00,  103.39)'  (   0.00,  101.23) fps with 1.106 sec
+860FA74E at  ( 100.00,  103.39)'  (   0.00,  101.23) fps with 1.356 sec
+870FA74E at  ( 150.00,  103.39)'  (   0.00,  101.23) fps with 1.606 sec
+effective_dt: 810FA74E IN AIR  ET=0.9231, L=0.0000, F=0.1058 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.9231, L=0.0000, F=0.3558 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.9231, L=0.0000, F=0.6058 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.9231, L=0.0000, F=0.8558 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.9231, L=0.0000, F=1.1058 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.9231, L=0.0000, F=1.3558 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.9231, L=0.0000, F=1.6058 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.923 (0.923076923076923) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,  106.29)'  (   0.00,  100.30) fps with 0.077 sec
+820FA74E at  (-100.00,  106.29)'  (   0.00,  100.30) fps with 0.327 sec
+830FA74E at  ( -50.00,  106.29)'  (   0.00,  100.30) fps with 0.577 sec
+840FA74E at  (   0.00,  106.29)'  (   0.00,  100.30) fps with 0.827 sec
+850FA74E at  (  50.00,  106.29)'  (   0.00,  100.30) fps with 1.077 sec
+860FA74E at  ( 100.00,  106.29)'  (   0.00,  100.30) fps with 1.327 sec
+870FA74E at  ( 150.00,  106.29)'  (   0.00,  100.30) fps with 1.577 sec
+effective_dt: 810FA74E IN AIR  ET=0.9519, L=0.0000, F=0.0769 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.9519, L=0.0000, F=0.3269 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.9519, L=0.0000, F=0.5769 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.9519, L=0.0000, F=0.8269 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.9519, L=0.0000, F=1.0769 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.9519, L=0.0000, F=1.3269 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.9519, L=0.0000, F=1.5769 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.952 (0.951923076923077) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,  109.17)'  (   0.00,   99.37) fps with 0.048 sec
+820FA74E at  (-100.00,  109.17)'  (   0.00,   99.37) fps with 0.298 sec
+830FA74E at  ( -50.00,  109.17)'  (   0.00,   99.37) fps with 0.548 sec
+840FA74E at  (   0.00,  109.17)'  (   0.00,   99.37) fps with 0.798 sec
+850FA74E at  (  50.00,  109.17)'  (   0.00,   99.37) fps with 1.048 sec
+860FA74E at  ( 100.00,  109.17)'  (   0.00,   99.37) fps with 1.298 sec
+870FA74E at  ( 150.00,  109.17)'  (   0.00,   99.37) fps with 1.548 sec
+effective_dt: 810FA74E IN AIR  ET=0.9808, L=0.0000, F=0.0481 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E IN AIR  ET=0.9808, L=0.0000, F=0.2981 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=0.9808, L=0.0000, F=0.5481 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=0.9808, L=0.0000, F=0.7981 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=0.9808, L=0.0000, F=1.0481 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=0.9808, L=0.0000, F=1.2981 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=0.9808, L=0.0000, F=1.5481 dt=0.028846. rval= 0.0288
+
+
+ At ET =  0.981 (0.980769230769231) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+810FA74E at  (-150.00,  112.03)'  (   0.00,   98.44) fps with 0.019 sec
+820FA74E at  (-100.00,  112.03)'  (   0.00,   98.44) fps with 0.269 sec
+830FA74E at  ( -50.00,  112.03)'  (   0.00,   98.44) fps with 0.519 sec
+840FA74E at  (   0.00,  112.03)'  (   0.00,   98.44) fps with 0.769 sec
+850FA74E at  (  50.00,  112.03)'  (   0.00,   98.44) fps with 1.019 sec
+860FA74E at  ( 100.00,  112.03)'  (   0.00,   98.44) fps with 1.269 sec
+870FA74E at  ( 150.00,  112.03)'  (   0.00,   98.44) fps with 1.519 sec
+effective_dt: 810FA74E IN AIR  ET=1.0096, L=0.0000, F=0.0192 dt=0.028846. rval= 0.0288
+effective_dt: 810FA74E  - clipping to fuse time.
+effective_dt: 820FA74E IN AIR  ET=1.0096, L=0.0000, F=0.2692 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.0096, L=0.0000, F=0.5192 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.0096, L=0.0000, F=0.7692 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.0096, L=0.0000, F=1.0192 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.0096, L=0.0000, F=1.2692 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.0096, L=0.0000, F=1.5192 dt=0.028846. rval= 0.0288
+Color #1 starburst at (-150.00, 113.91)'
+DIAGNOSTIC: Freeing firework with code 810FA74E.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
- At ET =  0.066 (0.066114245416079) second:
+ At ET =  1.010 (1.009615384615385) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-137.38,    7.43)'  (  39.70,  111.31) fps with 7.143 sec
-A60A87BA at  (   0.00,    0.00)'  Holding until 0.100
+820FA74E at  (-100.00,  114.85)'  (   0.00,   97.52) fps with 0.240 sec
+830FA74E at  ( -50.00,  114.85)'  (   0.00,   97.52) fps with 0.490 sec
+840FA74E at  (   0.00,  114.85)'  (   0.00,   97.52) fps with 0.740 sec
+850FA74E at  (  50.00,  114.85)'  (   0.00,   97.52) fps with 0.990 sec
+860FA74E at  ( 100.00,  114.85)'  (   0.00,   97.52) fps with 1.240 sec
+870FA74E at  ( 150.00,  114.85)'  (   0.00,   97.52) fps with 1.490 sec
+effective_dt: 820FA74E IN AIR  ET=1.0385, L=0.0000, F=0.2404 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.0385, L=0.0000, F=0.4904 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.0385, L=0.0000, F=0.7404 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.0385, L=0.0000, F=0.9904 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.0385, L=0.0000, F=1.2404 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.0385, L=0.0000, F=1.4904 dt=0.028846. rval= 0.0288
 
 
- At ET =  0.099 (0.099171368124118) second:
+ At ET =  1.038 (1.038461538461539) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-136.06,   11.09)'  (  39.70,  110.25) fps with 7.110 sec
-A60A87BA at  (   0.00,    0.00)'  Holding until 0.100
-Color #6 starburst at (  0.00,   0.00)'
-Boom at (  0.00,   0.00)'
-DIAGNOSTIC: Freeing firework with code A60A87BA.  2 freed.
+820FA74E at  (-100.00,  117.65)'  (   0.00,   96.59) fps with 0.212 sec
+830FA74E at  ( -50.00,  117.65)'  (   0.00,   96.59) fps with 0.462 sec
+840FA74E at  (   0.00,  117.65)'  (   0.00,   96.59) fps with 0.712 sec
+850FA74E at  (  50.00,  117.65)'  (   0.00,   96.59) fps with 0.962 sec
+860FA74E at  ( 100.00,  117.65)'  (   0.00,   96.59) fps with 1.212 sec
+870FA74E at  ( 150.00,  117.65)'  (   0.00,   96.59) fps with 1.462 sec
+effective_dt: 820FA74E IN AIR  ET=1.0673, L=0.0000, F=0.2115 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.0673, L=0.0000, F=0.4615 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.0673, L=0.0000, F=0.7115 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.0673, L=0.0000, F=0.9615 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.0673, L=0.0000, F=1.2115 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.0673, L=0.0000, F=1.4615 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.067 (1.067307692307692) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  120.42)'  (   0.00,   95.66) fps with 0.183 sec
+830FA74E at  ( -50.00,  120.42)'  (   0.00,   95.66) fps with 0.433 sec
+840FA74E at  (   0.00,  120.42)'  (   0.00,   95.66) fps with 0.683 sec
+850FA74E at  (  50.00,  120.42)'  (   0.00,   95.66) fps with 0.933 sec
+860FA74E at  ( 100.00,  120.42)'  (   0.00,   95.66) fps with 1.183 sec
+870FA74E at  ( 150.00,  120.42)'  (   0.00,   95.66) fps with 1.433 sec
+effective_dt: 820FA74E IN AIR  ET=1.0962, L=0.0000, F=0.1827 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.0962, L=0.0000, F=0.4327 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.0962, L=0.0000, F=0.6827 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.0962, L=0.0000, F=0.9327 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.0962, L=0.0000, F=1.1827 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.0962, L=0.0000, F=1.4327 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.096 (1.096153846153846) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  123.17)'  (   0.00,   94.73) fps with 0.154 sec
+830FA74E at  ( -50.00,  123.17)'  (   0.00,   94.73) fps with 0.404 sec
+840FA74E at  (   0.00,  123.17)'  (   0.00,   94.73) fps with 0.654 sec
+850FA74E at  (  50.00,  123.17)'  (   0.00,   94.73) fps with 0.904 sec
+860FA74E at  ( 100.00,  123.17)'  (   0.00,   94.73) fps with 1.154 sec
+870FA74E at  ( 150.00,  123.17)'  (   0.00,   94.73) fps with 1.404 sec
+effective_dt: 820FA74E IN AIR  ET=1.1250, L=0.0000, F=0.1538 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.1250, L=0.0000, F=0.4038 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.1250, L=0.0000, F=0.6538 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.1250, L=0.0000, F=0.9038 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.1250, L=0.0000, F=1.1538 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.1250, L=0.0000, F=1.4038 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.125 (1.125000000000000) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  125.89)'  (   0.00,   93.80) fps with 0.125 sec
+830FA74E at  ( -50.00,  125.89)'  (   0.00,   93.80) fps with 0.375 sec
+840FA74E at  (   0.00,  125.89)'  (   0.00,   93.80) fps with 0.625 sec
+850FA74E at  (  50.00,  125.89)'  (   0.00,   93.80) fps with 0.875 sec
+860FA74E at  ( 100.00,  125.89)'  (   0.00,   93.80) fps with 1.125 sec
+870FA74E at  ( 150.00,  125.89)'  (   0.00,   93.80) fps with 1.375 sec
+effective_dt: 820FA74E IN AIR  ET=1.1538, L=0.0000, F=0.1250 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.1538, L=0.0000, F=0.3750 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.1538, L=0.0000, F=0.6250 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.1538, L=0.0000, F=0.8750 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.1538, L=0.0000, F=1.1250 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.1538, L=0.0000, F=1.3750 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.154 (1.153846153846154) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  128.58)'  (   0.00,   92.88) fps with 0.096 sec
+830FA74E at  ( -50.00,  128.58)'  (   0.00,   92.88) fps with 0.346 sec
+840FA74E at  (   0.00,  128.58)'  (   0.00,   92.88) fps with 0.596 sec
+850FA74E at  (  50.00,  128.58)'  (   0.00,   92.88) fps with 0.846 sec
+860FA74E at  ( 100.00,  128.58)'  (   0.00,   92.88) fps with 1.096 sec
+870FA74E at  ( 150.00,  128.58)'  (   0.00,   92.88) fps with 1.346 sec
+effective_dt: 820FA74E IN AIR  ET=1.1827, L=0.0000, F=0.0962 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.1827, L=0.0000, F=0.3462 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.1827, L=0.0000, F=0.5962 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.1827, L=0.0000, F=0.8462 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.1827, L=0.0000, F=1.0962 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.1827, L=0.0000, F=1.3462 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.183 (1.182692307692307) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  131.25)'  (   0.00,   91.95) fps with 0.067 sec
+830FA74E at  ( -50.00,  131.25)'  (   0.00,   91.95) fps with 0.317 sec
+840FA74E at  (   0.00,  131.25)'  (   0.00,   91.95) fps with 0.567 sec
+850FA74E at  (  50.00,  131.25)'  (   0.00,   91.95) fps with 0.817 sec
+860FA74E at  ( 100.00,  131.25)'  (   0.00,   91.95) fps with 1.067 sec
+870FA74E at  ( 150.00,  131.25)'  (   0.00,   91.95) fps with 1.317 sec
+effective_dt: 820FA74E IN AIR  ET=1.2115, L=0.0000, F=0.0673 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.2115, L=0.0000, F=0.3173 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.2115, L=0.0000, F=0.5673 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.2115, L=0.0000, F=0.8173 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.2115, L=0.0000, F=1.0673 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.2115, L=0.0000, F=1.3173 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.212 (1.211538461538461) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  133.89)'  (   0.00,   91.02) fps with 0.038 sec
+830FA74E at  ( -50.00,  133.89)'  (   0.00,   91.02) fps with 0.288 sec
+840FA74E at  (   0.00,  133.89)'  (   0.00,   91.02) fps with 0.538 sec
+850FA74E at  (  50.00,  133.89)'  (   0.00,   91.02) fps with 0.788 sec
+860FA74E at  ( 100.00,  133.89)'  (   0.00,   91.02) fps with 1.038 sec
+870FA74E at  ( 150.00,  133.89)'  (   0.00,   91.02) fps with 1.288 sec
+effective_dt: 820FA74E IN AIR  ET=1.2404, L=0.0000, F=0.0385 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E IN AIR  ET=1.2404, L=0.0000, F=0.2885 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.2404, L=0.0000, F=0.5385 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.2404, L=0.0000, F=0.7885 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.2404, L=0.0000, F=1.0385 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.2404, L=0.0000, F=1.2885 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.240 (1.240384615384615) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+820FA74E at  (-100.00,  136.50)'  (   0.00,   90.09) fps with 0.010 sec
+830FA74E at  ( -50.00,  136.50)'  (   0.00,   90.09) fps with 0.260 sec
+840FA74E at  (   0.00,  136.50)'  (   0.00,   90.09) fps with 0.510 sec
+850FA74E at  (  50.00,  136.50)'  (   0.00,   90.09) fps with 0.760 sec
+860FA74E at  ( 100.00,  136.50)'  (   0.00,   90.09) fps with 1.010 sec
+870FA74E at  ( 150.00,  136.50)'  (   0.00,   90.09) fps with 1.260 sec
+effective_dt: 820FA74E IN AIR  ET=1.2692, L=0.0000, F=0.0096 dt=0.028846. rval= 0.0288
+effective_dt: 820FA74E  - clipping to fuse time.
+effective_dt: 830FA74E IN AIR  ET=1.2692, L=0.0000, F=0.2596 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.2692, L=0.0000, F=0.5096 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.2692, L=0.0000, F=0.7596 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.2692, L=0.0000, F=1.0096 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.2692, L=0.0000, F=1.2596 dt=0.028846. rval= 0.0288
+Color #2 starburst at (-100.00, 137.36)'
+DIAGNOSTIC: Freeing firework with code 820FA74E.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
 
 
- At ET =  0.132 (0.132228490832158) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-134.75,   14.72)'  (  39.70,  109.19) fps with 7.077 sec
-
-
- At ET =  0.165 (0.165285613540197) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-133.44,   18.31)'  (  39.70,  108.12) fps with 7.044 sec
-
-
- At ET =  0.198 (0.198342736248237) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-132.13,   21.87)'  (  39.70,  107.06) fps with 7.011 sec
-
-
- At ET =  0.231 (0.231399858956277) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-130.81,   25.39)'  (  39.70,  105.99) fps with 6.978 sec
-
-
- At ET =  0.264 (0.264456981664316) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-129.50,   28.87)'  (  39.70,  104.93) fps with 6.945 sec
-
-
- At ET =  0.298 (0.297514104372356) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-128.19,   32.33)'  (  39.70,  103.87) fps with 6.911 sec
-
-
- At ET =  0.331 (0.330571227080395) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-126.88,   35.74)'  (  39.70,  102.80) fps with 6.878 sec
-
-
- At ET =  0.364 (0.363628349788435) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-125.56,   39.12)'  (  39.70,  101.74) fps with 6.845 sec
-
-
- At ET =  0.397 (0.396685472496474) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-124.25,   42.47)'  (  39.70,  100.68) fps with 6.812 sec
-
-
- At ET =  0.430 (0.429742595204514) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-122.94,   45.78)'  (  39.70,   99.61) fps with 6.779 sec
-
-
- At ET =  0.463 (0.462799717912553) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-121.63,   49.05)'  (  39.70,   98.55) fps with 6.746 sec
-
-
- At ET =  0.496 (0.495856840620593) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-120.31,   52.29)'  (  39.70,   97.49) fps with 6.713 sec
-
-
- At ET =  0.529 (0.528913963328632) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-119.00,   55.50)'  (  39.70,   96.42) fps with 6.680 sec
-
-
- At ET =  0.562 (0.561971086036672) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-117.69,   58.67)'  (  39.70,   95.36) fps with 6.647 sec
-
-
- At ET =  0.595 (0.595028208744711) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-116.38,   61.80)'  (  39.70,   94.30) fps with 6.614 sec
-
-
- At ET =  0.628 (0.628085331452751) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-115.07,   64.90)'  (  39.70,   93.23) fps with 6.581 sec
-
-
- At ET =  0.661 (0.661142454160790) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-113.75,   67.97)'  (  39.70,   92.17) fps with 6.548 sec
-
-
- At ET =  0.694 (0.694199576868830) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-112.44,   71.00)'  (  39.70,   91.10) fps with 6.515 sec
-
-
- At ET =  0.727 (0.727256699576869) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-111.13,   73.99)'  (  39.70,   90.04) fps with 6.482 sec
-
-
- At ET =  0.760 (0.760313822284909) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-109.82,   76.95)'  (  39.70,   88.98) fps with 6.449 sec
-
-
- At ET =  0.793 (0.793370944992948) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-108.50,   79.87)'  (  39.70,   87.91) fps with 6.416 sec
-
-
- At ET =  0.826 (0.826428067700988) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-107.19,   82.76)'  (  39.70,   86.85) fps with 6.383 sec
-
-
- At ET =  0.859 (0.859485190409027) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-105.88,   85.62)'  (  39.70,   85.79) fps with 6.350 sec
-
-
- At ET =  0.893 (0.892542313117067) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-104.57,   88.43)'  (  39.70,   84.72) fps with 6.316 sec
-
-
- At ET =  0.926 (0.925599435825106) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-103.25,   91.22)'  (  39.70,   83.66) fps with 6.283 sec
-
-
- At ET =  0.959 (0.958656558533146) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-101.94,   93.97)'  (  39.70,   82.60) fps with 6.250 sec
-
-
- At ET =  0.992 (0.991713681241185) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (-100.63,   96.68)'  (  39.70,   81.53) fps with 6.217 sec
-
-
- At ET =  1.025 (1.024770803949225) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -99.32,   99.36)'  (  39.70,   80.47) fps with 6.184 sec
-
-
- At ET =  1.058 (1.057827926657264) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -98.00,  102.00)'  (  39.70,   79.41) fps with 6.151 sec
-
-
- At ET =  1.091 (1.090885049365304) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -96.69,  104.61)'  (  39.70,   78.34) fps with 6.118 sec
-
-
- At ET =  1.124 (1.123942172073343) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -95.38,  107.18)'  (  39.70,   77.28) fps with 6.085 sec
-
-
- At ET =  1.157 (1.156999294781382) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -94.07,  109.72)'  (  39.70,   76.21) fps with 6.052 sec
-
-
- At ET =  1.190 (1.190056417489422) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -92.75,  112.22)'  (  39.70,   75.15) fps with 6.019 sec
-
-
- At ET =  1.223 (1.223113540197461) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -91.44,  114.68)'  (  39.70,   74.09) fps with 5.986 sec
-
-
- At ET =  1.256 (1.256170662905501) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -90.13,  117.12)'  (  39.70,   73.02) fps with 5.953 sec
-
-
- At ET =  1.289 (1.289227785613540) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -88.82,  119.51)'  (  39.70,   71.96) fps with 5.920 sec
-
-
- At ET =  1.322 (1.322284908321579) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -87.51,  121.87)'  (  39.70,   70.90) fps with 5.887 sec
-
-
- At ET =  1.355 (1.355342031029619) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -86.19,  124.20)'  (  39.70,   69.83) fps with 5.854 sec
-
-
- At ET =  1.388 (1.388399153737658) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -84.88,  126.49)'  (  39.70,   68.77) fps with 5.821 sec
-
-
- At ET =  1.421 (1.421456276445697) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -83.57,  128.75)'  (  39.70,   67.71) fps with 5.788 sec
-
-
- At ET =  1.455 (1.454513399153737) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -82.26,  130.97)'  (  39.70,   66.64) fps with 5.754 sec
-
-
- At ET =  1.488 (1.487570521861776) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -80.94,  133.15)'  (  39.70,   65.58) fps with 5.721 sec
-
-
- At ET =  1.521 (1.520627644569816) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -79.63,  135.30)'  (  39.70,   64.52) fps with 5.688 sec
-
-
- At ET =  1.554 (1.553684767277855) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -78.32,  137.42)'  (  39.70,   63.45) fps with 5.655 sec
-
-
- At ET =  1.587 (1.586741889985894) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -77.01,  139.50)'  (  39.70,   62.39) fps with 5.622 sec
-
-
- At ET =  1.620 (1.619799012693934) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -75.69,  141.54)'  (  39.70,   61.32) fps with 5.589 sec
-
-
- At ET =  1.653 (1.652856135401973) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -74.38,  143.55)'  (  39.70,   60.26) fps with 5.556 sec
-
-
- At ET =  1.686 (1.685913258110013) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -73.07,  145.53)'  (  39.70,   59.20) fps with 5.523 sec
-
-
- At ET =  1.719 (1.718970380818052) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -71.76,  147.47)'  (  39.70,   58.13) fps with 5.490 sec
-
-
- At ET =  1.752 (1.752027503526091) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -70.44,  149.37)'  (  39.70,   57.07) fps with 5.457 sec
-
-
- At ET =  1.785 (1.785084626234131) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -69.13,  151.24)'  (  39.70,   56.01) fps with 5.424 sec
-
-
- At ET =  1.818 (1.818141748942170) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -67.82,  153.07)'  (  39.70,   54.94) fps with 5.391 sec
-
-
- At ET =  1.851 (1.851198871650210) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -66.51,  154.87)'  (  39.70,   53.88) fps with 5.358 sec
-
-
- At ET =  1.884 (1.884255994358249) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -65.20,  156.63)'  (  39.70,   52.82) fps with 5.325 sec
-
-
- At ET =  1.917 (1.917313117066288) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -63.88,  158.36)'  (  39.70,   51.75) fps with 5.292 sec
-
-
- At ET =  1.950 (1.950370239774328) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -62.57,  160.06)'  (  39.70,   50.69) fps with 5.259 sec
-
-
- At ET =  1.983 (1.983427362482367) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -61.26,  161.71)'  (  39.70,   49.63) fps with 5.226 sec
-
-
- At ET =  2.016 (2.016484485190407) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -59.95,  163.34)'  (  39.70,   48.56) fps with 5.193 sec
-
-
- At ET =  2.050 (2.049541607898446) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -58.63,  164.92)'  (  39.70,   47.50) fps with 5.159 sec
-
-
- At ET =  2.083 (2.082598730606486) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -57.32,  166.48)'  (  39.70,   46.43) fps with 5.126 sec
-
-
- At ET =  2.116 (2.115655853314526) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -56.01,  167.99)'  (  39.70,   45.37) fps with 5.093 sec
-
-
- At ET =  2.149 (2.148712976022565) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -54.70,  169.48)'  (  39.70,   44.31) fps with 5.060 sec
-
-
- At ET =  2.182 (2.181770098730605) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -53.38,  170.92)'  (  39.70,   43.24) fps with 5.027 sec
-
-
- At ET =  2.215 (2.214827221438644) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -52.07,  172.34)'  (  39.70,   42.18) fps with 4.994 sec
-
-
- At ET =  2.248 (2.247884344146684) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -50.76,  173.71)'  (  39.70,   41.12) fps with 4.961 sec
-
-
- At ET =  2.281 (2.280941466854724) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -49.45,  175.05)'  (  39.70,   40.05) fps with 4.928 sec
-
-
- At ET =  2.314 (2.313998589562763) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -48.13,  176.36)'  (  39.70,   38.99) fps with 4.895 sec
-
-
- At ET =  2.347 (2.347055712270803) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -46.82,  177.63)'  (  39.70,   37.93) fps with 4.862 sec
-
-
- At ET =  2.380 (2.380112834978843) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -45.51,  178.87)'  (  39.70,   36.86) fps with 4.829 sec
-
-
- At ET =  2.413 (2.413169957686882) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -44.20,  180.07)'  (  39.70,   35.80) fps with 4.796 sec
-
-
- At ET =  2.446 (2.446227080394922) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -42.88,  181.23)'  (  39.70,   34.73) fps with 4.763 sec
-
-
- At ET =  2.479 (2.479284203102961) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -41.57,  182.37)'  (  39.70,   33.67) fps with 4.730 sec
-
-
- At ET =  2.512 (2.512341325811001) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -40.26,  183.46)'  (  39.70,   32.61) fps with 4.697 sec
-
-
- At ET =  2.545 (2.545398448519041) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -38.95,  184.52)'  (  39.70,   31.54) fps with 4.664 sec
-
-
- At ET =  2.578 (2.578455571227080) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -37.64,  185.55)'  (  39.70,   30.48) fps with 4.631 sec
-
-
- At ET =  2.612 (2.611512693935120) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -36.32,  186.54)'  (  39.70,   29.42) fps with 4.597 sec
-
-
- At ET =  2.645 (2.644569816643159) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -35.01,  187.49)'  (  39.70,   28.35) fps with 4.564 sec
-
-
- At ET =  2.678 (2.677626939351199) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -33.70,  188.41)'  (  39.70,   27.29) fps with 4.531 sec
-
-
- At ET =  2.711 (2.710684062059239) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -32.39,  189.30)'  (  39.70,   26.23) fps with 4.498 sec
-
-
- At ET =  2.744 (2.743741184767278) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -31.07,  190.15)'  (  39.70,   25.16) fps with 4.465 sec
-
-
- At ET =  2.777 (2.776798307475318) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -29.76,  190.96)'  (  39.70,   24.10) fps with 4.432 sec
-
-
- At ET =  2.810 (2.809855430183358) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -28.45,  191.74)'  (  39.70,   23.04) fps with 4.399 sec
-
-
- At ET =  2.843 (2.842912552891397) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -27.14,  192.48)'  (  39.70,   21.97) fps with 4.366 sec
-
-
- At ET =  2.876 (2.875969675599437) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -25.82,  193.19)'  (  39.70,   20.91) fps with 4.333 sec
-
-
- At ET =  2.909 (2.909026798307476) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -24.51,  193.86)'  (  39.70,   19.84) fps with 4.300 sec
-
-
- At ET =  2.942 (2.942083921015516) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -23.20,  194.50)'  (  39.70,   18.78) fps with 4.267 sec
-
-
- At ET =  2.975 (2.975141043723556) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -21.89,  195.11)'  (  39.70,   17.72) fps with 4.234 sec
-
-
- At ET =  3.008 (3.008198166431595) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -20.57,  195.67)'  (  39.70,   16.65) fps with 4.201 sec
-
-
- At ET =  3.041 (3.041255289139635) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -19.26,  196.21)'  (  39.70,   15.59) fps with 4.168 sec
-
-
- At ET =  3.074 (3.074312411847675) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -17.95,  196.71)'  (  39.70,   14.53) fps with 4.135 sec
-
-
- At ET =  3.107 (3.107369534555714) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -16.64,  197.17)'  (  39.70,   13.46) fps with 4.102 sec
-
-
- At ET =  3.140 (3.140426657263754) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -15.33,  197.60)'  (  39.70,   12.40) fps with 4.069 sec
-
-
- At ET =  3.173 (3.173483779971793) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -14.01,  197.99)'  (  39.70,   11.34) fps with 4.036 sec
-
-
- At ET =  3.207 (3.206540902679833) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -12.70,  198.34)'  (  39.70,   10.27) fps with 4.002 sec
-
-
- At ET =  3.240 (3.239598025387873) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -11.39,  198.67)'  (  39.70,    9.21) fps with 3.969 sec
-
-
- At ET =  3.273 (3.272655148095912) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( -10.08,  198.95)'  (  39.70,    8.15) fps with 3.936 sec
-
-
- At ET =  3.306 (3.305712270803952) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -8.76,  199.21)'  (  39.70,    7.08) fps with 3.903 sec
-
-
- At ET =  3.339 (3.338769393511992) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -7.45,  199.42)'  (  39.70,    6.02) fps with 3.870 sec
-
-
- At ET =  3.372 (3.371826516220031) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -6.14,  199.60)'  (  39.70,    4.95) fps with 3.837 sec
-
-
- At ET =  3.405 (3.404883638928071) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -4.83,  199.75)'  (  39.70,    3.89) fps with 3.804 sec
-
-
- At ET =  3.438 (3.437940761636110) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -3.51,  199.86)'  (  39.70,    2.83) fps with 3.771 sec
-
-
- At ET =  3.471 (3.470997884344150) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -2.20,  199.94)'  (  39.70,    1.76) fps with 3.738 sec
-
-
- At ET =  3.504 (3.504055007052190) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  -0.89,  199.98)'  (  39.70,    0.70) fps with 3.705 sec
-RANGE SAFETY WARNING: F70A87BA is falling at 200.0' alt and 0.4' downrange with 3.672s till detonation.
-
-
- At ET =  3.537 (3.537112129760229) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   0.42,  199.98)'  (  39.70,   -0.36) fps with 3.672 sec
-
-
- At ET =  3.570 (3.570169252468269) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   1.74,  199.95)'  (  39.70,   -1.43) fps with 3.639 sec
-
-
- At ET =  3.603 (3.603226375176309) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   3.05,  199.89)'  (  39.70,   -2.49) fps with 3.606 sec
-
-
- At ET =  3.636 (3.636283497884348) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   4.36,  199.79)'  (  39.70,   -3.55) fps with 3.573 sec
-
-
- At ET =  3.669 (3.669340620592388) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   5.67,  199.65)'  (  39.70,   -4.62) fps with 3.540 sec
-
-
- At ET =  3.702 (3.702397743300427) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   6.99,  199.48)'  (  39.70,   -5.68) fps with 3.507 sec
-
-
- At ET =  3.735 (3.735454866008467) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   8.30,  199.28)'  (  39.70,   -6.74) fps with 3.474 sec
-
-
- At ET =  3.769 (3.768511988716507) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (   9.61,  199.04)'  (  39.70,   -7.81) fps with 3.440 sec
-
-
- At ET =  3.802 (3.801569111424546) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  10.92,  198.76)'  (  39.70,   -8.87) fps with 3.407 sec
-
-
- At ET =  3.835 (3.834626234132586) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  12.23,  198.45)'  (  39.70,   -9.94) fps with 3.374 sec
-
-
- At ET =  3.868 (3.867683356840625) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  13.55,  198.10)'  (  39.70,  -11.00) fps with 3.341 sec
-
-
- At ET =  3.901 (3.900740479548665) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  14.86,  197.72)'  (  39.70,  -12.06) fps with 3.308 sec
-
-
- At ET =  3.934 (3.933797602256705) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  16.17,  197.31)'  (  39.70,  -13.13) fps with 3.275 sec
-
-
- At ET =  3.967 (3.966854724964744) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  17.48,  196.86)'  (  39.70,  -14.19) fps with 3.242 sec
-
-
- At ET =  4.000 (3.999911847672784) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  18.80,  196.37)'  (  39.70,  -15.25) fps with 3.209 sec
-
-
- At ET =  4.033 (4.032968970380823) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  20.11,  195.85)'  (  39.70,  -16.32) fps with 3.176 sec
-
-
- At ET =  4.066 (4.066026093088863) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  21.42,  195.29)'  (  39.70,  -17.38) fps with 3.143 sec
-
-
- At ET =  4.099 (4.099083215796902) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  22.73,  194.70)'  (  39.70,  -18.44) fps with 3.110 sec
-
-
- At ET =  4.132 (4.132140338504942) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  24.05,  194.07)'  (  39.70,  -19.51) fps with 3.077 sec
-
-
- At ET =  4.165 (4.165197461212982) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  25.36,  193.41)'  (  39.70,  -20.57) fps with 3.044 sec
-
-
- At ET =  4.198 (4.198254583921021) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  26.67,  192.71)'  (  39.70,  -21.63) fps with 3.011 sec
-
-
- At ET =  4.231 (4.231311706629061) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  27.98,  191.98)'  (  39.70,  -22.70) fps with 2.978 sec
-
-
- At ET =  4.264 (4.264368829337100) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  29.30,  191.21)'  (  39.70,  -23.76) fps with 2.945 sec
-
-
- At ET =  4.297 (4.297425952045140) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  30.61,  190.41)'  (  39.70,  -24.83) fps with 2.912 sec
-
-
- At ET =  4.330 (4.330483074753180) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  31.92,  189.57)'  (  39.70,  -25.89) fps with 2.879 sec
-
-
- At ET =  4.364 (4.363540197461219) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  33.23,  188.70)'  (  39.70,  -26.95) fps with 2.845 sec
-
-
- At ET =  4.397 (4.396597320169259) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  34.54,  187.79)'  (  39.70,  -28.02) fps with 2.812 sec
-
-
- At ET =  4.430 (4.429654442877299) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  35.86,  186.84)'  (  39.70,  -29.08) fps with 2.779 sec
-
-
- At ET =  4.463 (4.462711565585338) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  37.17,  185.86)'  (  39.70,  -30.14) fps with 2.746 sec
-
-
- At ET =  4.496 (4.495768688293378) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  38.48,  184.85)'  (  39.70,  -31.21) fps with 2.713 sec
-
-
- At ET =  4.529 (4.528825811001417) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  39.79,  183.80)'  (  39.70,  -32.27) fps with 2.680 sec
-
-
- At ET =  4.562 (4.561882933709457) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  41.11,  182.72)'  (  39.70,  -33.33) fps with 2.647 sec
-
-
- At ET =  4.595 (4.594940056417497) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  42.42,  181.60)'  (  39.70,  -34.40) fps with 2.614 sec
-
-
- At ET =  4.628 (4.627997179125536) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  43.73,  180.44)'  (  39.70,  -35.46) fps with 2.581 sec
-
-
- At ET =  4.661 (4.661054301833576) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  45.04,  179.25)'  (  39.70,  -36.52) fps with 2.548 sec
-
-
- At ET =  4.694 (4.694111424541616) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  46.36,  178.03)'  (  39.70,  -37.59) fps with 2.515 sec
-
-
- At ET =  4.727 (4.727168547249655) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  47.67,  176.77)'  (  39.70,  -38.65) fps with 2.482 sec
-
-
- At ET =  4.760 (4.760225669957695) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  48.98,  175.47)'  (  39.70,  -39.72) fps with 2.449 sec
-
-
- At ET =  4.793 (4.793282792665734) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  50.29,  174.14)'  (  39.70,  -40.78) fps with 2.416 sec
-
-
- At ET =  4.826 (4.826339915373774) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  51.61,  172.78)'  (  39.70,  -41.84) fps with 2.383 sec
-
-
- At ET =  4.859 (4.859397038081814) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  52.92,  171.38)'  (  39.70,  -42.91) fps with 2.350 sec
-
-
- At ET =  4.892 (4.892454160789853) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  54.23,  169.94)'  (  39.70,  -43.97) fps with 2.317 sec
-
-
- At ET =  4.926 (4.925511283497893) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  55.54,  168.47)'  (  39.70,  -45.03) fps with 2.283 sec
-
-
- At ET =  4.959 (4.958568406205933) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  56.86,  166.96)'  (  39.70,  -46.10) fps with 2.250 sec
-
-
- At ET =  4.992 (4.991625528913972) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  58.17,  165.42)'  (  39.70,  -47.16) fps with 2.217 sec
-
-
- At ET =  5.025 (5.024682651622012) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  59.48,  163.84)'  (  39.70,  -48.22) fps with 2.184 sec
-
-
- At ET =  5.058 (5.057739774330051) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  60.79,  162.23)'  (  39.70,  -49.29) fps with 2.151 sec
-
-
- At ET =  5.091 (5.090796897038091) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  62.10,  160.59)'  (  39.70,  -50.35) fps with 2.118 sec
-
-
- At ET =  5.124 (5.123854019746131) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  63.42,  158.90)'  (  39.70,  -51.42) fps with 2.085 sec
-
-
- At ET =  5.157 (5.156911142454170) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  64.73,  157.19)'  (  39.70,  -52.48) fps with 2.052 sec
-
-
- At ET =  5.190 (5.189968265162210) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  66.04,  155.43)'  (  39.70,  -53.54) fps with 2.019 sec
-
-
- At ET =  5.223 (5.223025387870250) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  67.35,  153.65)'  (  39.70,  -54.61) fps with 1.986 sec
-
-
- At ET =  5.256 (5.256082510578289) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  68.67,  151.82)'  (  39.70,  -55.67) fps with 1.953 sec
-
-
- At ET =  5.289 (5.289139633286329) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  69.98,  149.97)'  (  39.70,  -56.73) fps with 1.920 sec
-
-
- At ET =  5.322 (5.322196755994368) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  71.29,  148.07)'  (  39.70,  -57.80) fps with 1.887 sec
-
-
- At ET =  5.355 (5.355253878702408) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  72.60,  146.14)'  (  39.70,  -58.86) fps with 1.854 sec
-
-
- At ET =  5.388 (5.388311001410448) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  73.92,  144.18)'  (  39.70,  -59.92) fps with 1.821 sec
-
-
- At ET =  5.421 (5.421368124118487) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  75.23,  142.18)'  (  39.70,  -60.99) fps with 1.788 sec
-
-
- At ET =  5.454 (5.454425246826527) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  76.54,  140.15)'  (  39.70,  -62.05) fps with 1.755 sec
-
-
- At ET =  5.487 (5.487482369534566) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  77.85,  138.08)'  (  39.70,  -63.11) fps with 1.722 sec
-
-
- At ET =  5.521 (5.520539492242606) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  79.17,  135.98)'  (  39.70,  -64.18) fps with 1.688 sec
-
-
- At ET =  5.554 (5.553596614950646) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  80.48,  133.84)'  (  39.70,  -65.24) fps with 1.655 sec
-
-
- At ET =  5.587 (5.586653737658685) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  81.79,  131.66)'  (  39.70,  -66.31) fps with 1.622 sec
-
-
- At ET =  5.620 (5.619710860366725) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  83.10,  129.45)'  (  39.70,  -67.37) fps with 1.589 sec
-
-
- At ET =  5.653 (5.652767983074765) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  84.41,  127.21)'  (  39.70,  -68.43) fps with 1.556 sec
-
-
- At ET =  5.686 (5.685825105782804) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  85.73,  124.93)'  (  39.70,  -69.50) fps with 1.523 sec
-
-
- At ET =  5.719 (5.718882228490844) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  87.04,  122.61)'  (  39.70,  -70.56) fps with 1.490 sec
-
-
- At ET =  5.752 (5.751939351198883) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  88.35,  120.26)'  (  39.70,  -71.62) fps with 1.457 sec
-
-
- At ET =  5.785 (5.784996473906923) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  89.66,  117.88)'  (  39.70,  -72.69) fps with 1.424 sec
-
-
- At ET =  5.818 (5.818053596614963) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  90.98,  115.46)'  (  39.70,  -73.75) fps with 1.391 sec
-
-
- At ET =  5.851 (5.851110719323002) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  92.29,  113.00)'  (  39.70,  -74.81) fps with 1.358 sec
-
-
- At ET =  5.884 (5.884167842031042) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  93.60,  110.51)'  (  39.70,  -75.88) fps with 1.325 sec
-
-
- At ET =  5.917 (5.917224964739082) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  94.91,  107.99)'  (  39.70,  -76.94) fps with 1.292 sec
-
-
- At ET =  5.950 (5.950282087447121) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  96.23,  105.43)'  (  39.70,  -78.00) fps with 1.259 sec
-
-
- At ET =  5.983 (5.983339210155161) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  97.54,  102.83)'  (  39.70,  -79.07) fps with 1.226 sec
-
-
- At ET =  6.016 (6.016396332863200) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  (  98.85,  100.20)'  (  39.70,  -80.13) fps with 1.193 sec
-
-
- At ET =  6.049 (6.049453455571240) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 100.16,   97.53)'  (  39.70,  -81.20) fps with 1.160 sec
-
-
- At ET =  6.083 (6.082510578279280) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 101.48,   94.83)'  (  39.70,  -82.26) fps with 1.126 sec
-
-
- At ET =  6.116 (6.115567700987319) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 102.79,   92.09)'  (  39.70,  -83.32) fps with 1.093 sec
-
-
- At ET =  6.149 (6.148624823695359) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 104.10,   89.32)'  (  39.70,  -84.39) fps with 1.060 sec
-
-
- At ET =  6.182 (6.181681946403399) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 105.41,   86.51)'  (  39.70,  -85.45) fps with 1.027 sec
-
-
- At ET =  6.215 (6.214739069111438) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 106.73,   83.67)'  (  39.70,  -86.51) fps with 0.994 sec
-
-
- At ET =  6.248 (6.247796191819478) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 108.04,   80.79)'  (  39.70,  -87.58) fps with 0.961 sec
-
-
- At ET =  6.281 (6.280853314527517) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 109.35,   77.88)'  (  39.70,  -88.64) fps with 0.928 sec
-
-
- At ET =  6.314 (6.313910437235557) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 110.66,   74.93)'  (  39.70,  -89.70) fps with 0.895 sec
-
-
- At ET =  6.347 (6.346967559943597) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 111.97,   71.95)'  (  39.70,  -90.77) fps with 0.862 sec
-
-
- At ET =  6.380 (6.380024682651636) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 113.29,   68.93)'  (  39.70,  -91.83) fps with 0.829 sec
-
-
- At ET =  6.413 (6.413081805359676) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 114.60,   65.88)'  (  39.70,  -92.89) fps with 0.796 sec
-
-
- At ET =  6.446 (6.446138928067715) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 115.91,   62.79)'  (  39.70,  -93.96) fps with 0.763 sec
-
-
- At ET =  6.479 (6.479196050775755) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 117.22,   59.67)'  (  39.70,  -95.02) fps with 0.730 sec
-
-
- At ET =  6.512 (6.512253173483795) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 118.54,   56.51)'  (  39.70,  -96.09) fps with 0.697 sec
-
-
- At ET =  6.545 (6.545310296191834) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 119.85,   53.31)'  (  39.70,  -97.15) fps with 0.664 sec
-
-
- At ET =  6.578 (6.578367418899874) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 121.16,   50.09)'  (  39.70,  -98.21) fps with 0.631 sec
-
-
- At ET =  6.611 (6.611424541607914) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 122.47,   46.82)'  (  39.70,  -99.28) fps with 0.598 sec
-
-
- At ET =  6.644 (6.644481664315953) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 123.79,   43.52)'  (  39.70, -100.34) fps with 0.565 sec
-
-
- At ET =  6.678 (6.677538787023993) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 125.10,   40.19)'  (  39.70, -101.40) fps with 0.531 sec
-
-
- At ET =  6.711 (6.710595909732032) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 126.41,   36.82)'  (  39.70, -102.47) fps with 0.498 sec
-
-
- At ET =  6.744 (6.743653032440072) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 127.72,   33.41)'  (  39.70, -103.53) fps with 0.465 sec
-
-
- At ET =  6.777 (6.776710155148112) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 129.04,   29.97)'  (  39.70, -104.59) fps with 0.432 sec
-
-
- At ET =  6.810 (6.809767277856151) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 130.35,   26.50)'  (  39.70, -105.66) fps with 0.399 sec
-
-
- At ET =  6.843 (6.842824400564191) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 131.66,   22.99)'  (  39.70, -106.72) fps with 0.366 sec
-
-
- At ET =  6.876 (6.875881523272231) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 132.97,   19.44)'  (  39.70, -107.78) fps with 0.333 sec
-
-
- At ET =  6.909 (6.908938645980270) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 134.28,   15.86)'  (  39.70, -108.85) fps with 0.300 sec
-
-
- At ET =  6.942 (6.941995768688310) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 135.60,   12.25)'  (  39.70, -109.91) fps with 0.267 sec
-
-
- At ET =  6.975 (6.975052891396349) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 136.91,    8.59)'  (  39.70, -110.98) fps with 0.234 sec
-
-
- At ET =  7.008 (7.008110014104389) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 138.22,    4.91)'  (  39.70, -112.04) fps with 0.201 sec
-
-
- At ET =  7.041 (7.041167136812429) second:
-    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
-F70A87BA at  ( 139.53,    1.19)'  (  39.70, -113.10) fps with 0.168 sec
-RANGE SAFETY WARNING: At 7.074 sec F70A87BA (made on 8-10-1978) impacts at (140.85, -2.57)' with 0.135 seconds remaining
-DIAGNOSTIC: Freeing firework with code F70A87BA.  3 freed.
+ At ET =  1.269 (1.269230769230768) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  139.08)'  (   0.00,   89.16) fps with 0.231 sec
+840FA74E at  (   0.00,  139.08)'  (   0.00,   89.16) fps with 0.481 sec
+850FA74E at  (  50.00,  139.08)'  (   0.00,   89.16) fps with 0.731 sec
+860FA74E at  ( 100.00,  139.08)'  (   0.00,   89.16) fps with 0.981 sec
+870FA74E at  ( 150.00,  139.08)'  (   0.00,   89.16) fps with 1.231 sec
+effective_dt: 830FA74E IN AIR  ET=1.2981, L=0.0000, F=0.2308 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.2981, L=0.0000, F=0.4808 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.2981, L=0.0000, F=0.7308 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.2981, L=0.0000, F=0.9808 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.2981, L=0.0000, F=1.2308 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.298 (1.298076923076922) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  141.64)'  (   0.00,   88.24) fps with 0.202 sec
+840FA74E at  (   0.00,  141.64)'  (   0.00,   88.24) fps with 0.452 sec
+850FA74E at  (  50.00,  141.64)'  (   0.00,   88.24) fps with 0.702 sec
+860FA74E at  ( 100.00,  141.64)'  (   0.00,   88.24) fps with 0.952 sec
+870FA74E at  ( 150.00,  141.64)'  (   0.00,   88.24) fps with 1.202 sec
+effective_dt: 830FA74E IN AIR  ET=1.3269, L=0.0000, F=0.2019 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.3269, L=0.0000, F=0.4519 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.3269, L=0.0000, F=0.7019 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.3269, L=0.0000, F=0.9519 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.3269, L=0.0000, F=1.2019 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.327 (1.326923076923076) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  144.18)'  (   0.00,   87.31) fps with 0.173 sec
+840FA74E at  (   0.00,  144.18)'  (   0.00,   87.31) fps with 0.423 sec
+850FA74E at  (  50.00,  144.18)'  (   0.00,   87.31) fps with 0.673 sec
+860FA74E at  ( 100.00,  144.18)'  (   0.00,   87.31) fps with 0.923 sec
+870FA74E at  ( 150.00,  144.18)'  (   0.00,   87.31) fps with 1.173 sec
+effective_dt: 830FA74E IN AIR  ET=1.3558, L=0.0000, F=0.1731 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.3558, L=0.0000, F=0.4231 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.3558, L=0.0000, F=0.6731 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.3558, L=0.0000, F=0.9231 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.3558, L=0.0000, F=1.1731 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.356 (1.355769230769230) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  146.68)'  (   0.00,   86.38) fps with 0.144 sec
+840FA74E at  (   0.00,  146.68)'  (   0.00,   86.38) fps with 0.394 sec
+850FA74E at  (  50.00,  146.68)'  (   0.00,   86.38) fps with 0.644 sec
+860FA74E at  ( 100.00,  146.68)'  (   0.00,   86.38) fps with 0.894 sec
+870FA74E at  ( 150.00,  146.68)'  (   0.00,   86.38) fps with 1.144 sec
+effective_dt: 830FA74E IN AIR  ET=1.3846, L=0.0000, F=0.1442 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.3846, L=0.0000, F=0.3942 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.3846, L=0.0000, F=0.6442 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.3846, L=0.0000, F=0.8942 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.3846, L=0.0000, F=1.1442 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.385 (1.384615384615383) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  149.16)'  (   0.00,   85.45) fps with 0.115 sec
+840FA74E at  (   0.00,  149.16)'  (   0.00,   85.45) fps with 0.365 sec
+850FA74E at  (  50.00,  149.16)'  (   0.00,   85.45) fps with 0.615 sec
+860FA74E at  ( 100.00,  149.16)'  (   0.00,   85.45) fps with 0.865 sec
+870FA74E at  ( 150.00,  149.16)'  (   0.00,   85.45) fps with 1.115 sec
+effective_dt: 830FA74E IN AIR  ET=1.4135, L=0.0000, F=0.1154 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.4135, L=0.0000, F=0.3654 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.4135, L=0.0000, F=0.6154 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.4135, L=0.0000, F=0.8654 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.4135, L=0.0000, F=1.1154 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.413 (1.413461538461537) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  151.61)'  (   0.00,   84.52) fps with 0.087 sec
+840FA74E at  (   0.00,  151.61)'  (   0.00,   84.52) fps with 0.337 sec
+850FA74E at  (  50.00,  151.61)'  (   0.00,   84.52) fps with 0.587 sec
+860FA74E at  ( 100.00,  151.61)'  (   0.00,   84.52) fps with 0.837 sec
+870FA74E at  ( 150.00,  151.61)'  (   0.00,   84.52) fps with 1.087 sec
+effective_dt: 830FA74E IN AIR  ET=1.4423, L=0.0000, F=0.0865 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.4423, L=0.0000, F=0.3365 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.4423, L=0.0000, F=0.5865 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.4423, L=0.0000, F=0.8365 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.4423, L=0.0000, F=1.0865 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.442 (1.442307692307691) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  154.03)'  (   0.00,   83.60) fps with 0.058 sec
+840FA74E at  (   0.00,  154.03)'  (   0.00,   83.60) fps with 0.308 sec
+850FA74E at  (  50.00,  154.03)'  (   0.00,   83.60) fps with 0.558 sec
+860FA74E at  ( 100.00,  154.03)'  (   0.00,   83.60) fps with 0.808 sec
+870FA74E at  ( 150.00,  154.03)'  (   0.00,   83.60) fps with 1.058 sec
+effective_dt: 830FA74E IN AIR  ET=1.4712, L=0.0000, F=0.0577 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.4712, L=0.0000, F=0.3077 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.4712, L=0.0000, F=0.5577 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.4712, L=0.0000, F=0.8077 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.4712, L=0.0000, F=1.0577 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.471 (1.471153846153845) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  156.43)'  (   0.00,   82.67) fps with 0.029 sec
+840FA74E at  (   0.00,  156.43)'  (   0.00,   82.67) fps with 0.279 sec
+850FA74E at  (  50.00,  156.43)'  (   0.00,   82.67) fps with 0.529 sec
+860FA74E at  ( 100.00,  156.43)'  (   0.00,   82.67) fps with 0.779 sec
+870FA74E at  ( 150.00,  156.43)'  (   0.00,   82.67) fps with 1.029 sec
+effective_dt: 830FA74E IN AIR  ET=1.5000, L=0.0000, F=0.0288 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E IN AIR  ET=1.5000, L=0.0000, F=0.2788 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.5000, L=0.0000, F=0.5288 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.5000, L=0.0000, F=0.7788 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.5000, L=0.0000, F=1.0288 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.500 (1.499999999999998) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+830FA74E at  ( -50.00,  158.80)'  (   0.00,   81.74) fps with 0.000 sec
+840FA74E at  (   0.00,  158.80)'  (   0.00,   81.74) fps with 0.250 sec
+850FA74E at  (  50.00,  158.80)'  (   0.00,   81.74) fps with 0.500 sec
+860FA74E at  ( 100.00,  158.80)'  (   0.00,   81.74) fps with 0.750 sec
+870FA74E at  ( 150.00,  158.80)'  (   0.00,   81.74) fps with 1.000 sec
+effective_dt: 830FA74E IN AIR  ET=1.5288, L=0.0000, F=0.0000 dt=0.028846. rval= 0.0288
+effective_dt: 830FA74E  - clipping to fuse time.
+effective_dt: 840FA74E IN AIR  ET=1.5288, L=0.0000, F=0.2500 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.5288, L=0.0000, F=0.5000 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.5288, L=0.0000, F=0.7500 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.5288, L=0.0000, F=1.0000 dt=0.028846. rval= 0.0288
+Color #3 starburst at (-50.00, 158.80)'
+DIAGNOSTIC: Freeing firework with code 830FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
-Done reading: scnaf returned -1 
-Total run time is 0.000909090 seconds.
+
+ At ET =  1.529 (1.528846153846152) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  161.15)'  (   0.00,   80.81) fps with 0.221 sec
+850FA74E at  (  50.00,  161.15)'  (   0.00,   80.81) fps with 0.471 sec
+860FA74E at  ( 100.00,  161.15)'  (   0.00,   80.81) fps with 0.721 sec
+870FA74E at  ( 150.00,  161.15)'  (   0.00,   80.81) fps with 0.971 sec
+effective_dt: 840FA74E IN AIR  ET=1.5577, L=0.0000, F=0.2212 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.5577, L=0.0000, F=0.4712 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.5577, L=0.0000, F=0.7212 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.5577, L=0.0000, F=0.9712 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.558 (1.557692307692306) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  163.47)'  (   0.00,   79.88) fps with 0.192 sec
+850FA74E at  (  50.00,  163.47)'  (   0.00,   79.88) fps with 0.442 sec
+860FA74E at  ( 100.00,  163.47)'  (   0.00,   79.88) fps with 0.692 sec
+870FA74E at  ( 150.00,  163.47)'  (   0.00,   79.88) fps with 0.942 sec
+effective_dt: 840FA74E IN AIR  ET=1.5865, L=0.0000, F=0.1923 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.5865, L=0.0000, F=0.4423 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.5865, L=0.0000, F=0.6923 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.5865, L=0.0000, F=0.9423 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.587 (1.586538461538460) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  165.76)'  (   0.00,   78.95) fps with 0.163 sec
+850FA74E at  (  50.00,  165.76)'  (   0.00,   78.95) fps with 0.413 sec
+860FA74E at  ( 100.00,  165.76)'  (   0.00,   78.95) fps with 0.663 sec
+870FA74E at  ( 150.00,  165.76)'  (   0.00,   78.95) fps with 0.913 sec
+effective_dt: 840FA74E IN AIR  ET=1.6154, L=0.0000, F=0.1635 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.6154, L=0.0000, F=0.4135 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.6154, L=0.0000, F=0.6635 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.6154, L=0.0000, F=0.9135 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.615 (1.615384615384613) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  168.02)'  (   0.00,   78.03) fps with 0.135 sec
+850FA74E at  (  50.00,  168.02)'  (   0.00,   78.03) fps with 0.385 sec
+860FA74E at  ( 100.00,  168.02)'  (   0.00,   78.03) fps with 0.635 sec
+870FA74E at  ( 150.00,  168.02)'  (   0.00,   78.03) fps with 0.885 sec
+effective_dt: 840FA74E IN AIR  ET=1.6442, L=0.0000, F=0.1346 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.6442, L=0.0000, F=0.3846 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.6442, L=0.0000, F=0.6346 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.6442, L=0.0000, F=0.8846 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.644 (1.644230769230767) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  170.26)'  (   0.00,   77.10) fps with 0.106 sec
+850FA74E at  (  50.00,  170.26)'  (   0.00,   77.10) fps with 0.356 sec
+860FA74E at  ( 100.00,  170.26)'  (   0.00,   77.10) fps with 0.606 sec
+870FA74E at  ( 150.00,  170.26)'  (   0.00,   77.10) fps with 0.856 sec
+effective_dt: 840FA74E IN AIR  ET=1.6731, L=0.0000, F=0.1058 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.6731, L=0.0000, F=0.3558 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.6731, L=0.0000, F=0.6058 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.6731, L=0.0000, F=0.8558 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.673 (1.673076923076921) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  172.47)'  (   0.00,   76.17) fps with 0.077 sec
+850FA74E at  (  50.00,  172.47)'  (   0.00,   76.17) fps with 0.327 sec
+860FA74E at  ( 100.00,  172.47)'  (   0.00,   76.17) fps with 0.577 sec
+870FA74E at  ( 150.00,  172.47)'  (   0.00,   76.17) fps with 0.827 sec
+effective_dt: 840FA74E IN AIR  ET=1.7019, L=0.0000, F=0.0769 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.7019, L=0.0000, F=0.3269 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.7019, L=0.0000, F=0.5769 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.7019, L=0.0000, F=0.8269 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.702 (1.701923076923075) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  174.65)'  (   0.00,   75.24) fps with 0.048 sec
+850FA74E at  (  50.00,  174.65)'  (   0.00,   75.24) fps with 0.298 sec
+860FA74E at  ( 100.00,  174.65)'  (   0.00,   75.24) fps with 0.548 sec
+870FA74E at  ( 150.00,  174.65)'  (   0.00,   75.24) fps with 0.798 sec
+effective_dt: 840FA74E IN AIR  ET=1.7308, L=0.0000, F=0.0481 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E IN AIR  ET=1.7308, L=0.0000, F=0.2981 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.7308, L=0.0000, F=0.5481 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.7308, L=0.0000, F=0.7981 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.731 (1.730769230769228) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+840FA74E at  (   0.00,  176.81)'  (   0.00,   74.31) fps with 0.019 sec
+850FA74E at  (  50.00,  176.81)'  (   0.00,   74.31) fps with 0.269 sec
+860FA74E at  ( 100.00,  176.81)'  (   0.00,   74.31) fps with 0.519 sec
+870FA74E at  ( 150.00,  176.81)'  (   0.00,   74.31) fps with 0.769 sec
+effective_dt: 840FA74E IN AIR  ET=1.7596, L=0.0000, F=0.0192 dt=0.028846. rval= 0.0288
+effective_dt: 840FA74E  - clipping to fuse time.
+effective_dt: 850FA74E IN AIR  ET=1.7596, L=0.0000, F=0.2692 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.7596, L=0.0000, F=0.5192 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.7596, L=0.0000, F=0.7692 dt=0.028846. rval= 0.0288
+Color #4 starburst at (  0.00, 178.23)'
+DIAGNOSTIC: Freeing firework with code 840FA74E.  4 freed.
+DIAGNOSTIC: 4 nodes freed.
+
+
+ At ET =  1.760 (1.759615384615382) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  178.94)'  (   0.00,   73.39) fps with 0.240 sec
+860FA74E at  ( 100.00,  178.94)'  (   0.00,   73.39) fps with 0.490 sec
+870FA74E at  ( 150.00,  178.94)'  (   0.00,   73.39) fps with 0.740 sec
+effective_dt: 850FA74E IN AIR  ET=1.7885, L=0.0000, F=0.2404 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.7885, L=0.0000, F=0.4904 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.7885, L=0.0000, F=0.7404 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.788 (1.788461538461536) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  181.04)'  (   0.00,   72.46) fps with 0.212 sec
+860FA74E at  ( 100.00,  181.04)'  (   0.00,   72.46) fps with 0.462 sec
+870FA74E at  ( 150.00,  181.04)'  (   0.00,   72.46) fps with 0.712 sec
+effective_dt: 850FA74E IN AIR  ET=1.8173, L=0.0000, F=0.2115 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.8173, L=0.0000, F=0.4615 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.8173, L=0.0000, F=0.7115 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.817 (1.817307692307690) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  183.12)'  (   0.00,   71.53) fps with 0.183 sec
+860FA74E at  ( 100.00,  183.12)'  (   0.00,   71.53) fps with 0.433 sec
+870FA74E at  ( 150.00,  183.12)'  (   0.00,   71.53) fps with 0.683 sec
+effective_dt: 850FA74E IN AIR  ET=1.8462, L=0.0000, F=0.1827 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.8462, L=0.0000, F=0.4327 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.8462, L=0.0000, F=0.6827 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.846 (1.846153846153843) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  185.17)'  (   0.00,   70.60) fps with 0.154 sec
+860FA74E at  ( 100.00,  185.17)'  (   0.00,   70.60) fps with 0.404 sec
+870FA74E at  ( 150.00,  185.17)'  (   0.00,   70.60) fps with 0.654 sec
+effective_dt: 850FA74E IN AIR  ET=1.8750, L=0.0000, F=0.1538 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.8750, L=0.0000, F=0.4038 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.8750, L=0.0000, F=0.6538 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.875 (1.874999999999997) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  187.19)'  (   0.00,   69.67) fps with 0.125 sec
+860FA74E at  ( 100.00,  187.19)'  (   0.00,   69.67) fps with 0.375 sec
+870FA74E at  ( 150.00,  187.19)'  (   0.00,   69.67) fps with 0.625 sec
+effective_dt: 850FA74E IN AIR  ET=1.9038, L=0.0000, F=0.1250 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.9038, L=0.0000, F=0.3750 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.9038, L=0.0000, F=0.6250 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.904 (1.903846153846151) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  189.19)'  (   0.00,   68.75) fps with 0.096 sec
+860FA74E at  ( 100.00,  189.19)'  (   0.00,   68.75) fps with 0.346 sec
+870FA74E at  ( 150.00,  189.19)'  (   0.00,   68.75) fps with 0.596 sec
+effective_dt: 850FA74E IN AIR  ET=1.9327, L=0.0000, F=0.0962 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.9327, L=0.0000, F=0.3462 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.9327, L=0.0000, F=0.5962 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.933 (1.932692307692305) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  191.16)'  (   0.00,   67.82) fps with 0.067 sec
+860FA74E at  ( 100.00,  191.16)'  (   0.00,   67.82) fps with 0.317 sec
+870FA74E at  ( 150.00,  191.16)'  (   0.00,   67.82) fps with 0.567 sec
+effective_dt: 850FA74E IN AIR  ET=1.9615, L=0.0000, F=0.0673 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.9615, L=0.0000, F=0.3173 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.9615, L=0.0000, F=0.5673 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.962 (1.961538461538458) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  193.10)'  (   0.00,   66.89) fps with 0.038 sec
+860FA74E at  ( 100.00,  193.10)'  (   0.00,   66.89) fps with 0.288 sec
+870FA74E at  ( 150.00,  193.10)'  (   0.00,   66.89) fps with 0.538 sec
+effective_dt: 850FA74E IN AIR  ET=1.9904, L=0.0000, F=0.0385 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E IN AIR  ET=1.9904, L=0.0000, F=0.2885 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=1.9904, L=0.0000, F=0.5385 dt=0.028846. rval= 0.0288
+
+
+ At ET =  1.990 (1.990384615384612) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+850FA74E at  (  50.00,  195.02)'  (   0.00,   65.96) fps with 0.010 sec
+860FA74E at  ( 100.00,  195.02)'  (   0.00,   65.96) fps with 0.260 sec
+870FA74E at  ( 150.00,  195.02)'  (   0.00,   65.96) fps with 0.510 sec
+effective_dt: 850FA74E IN AIR  ET=2.0192, L=0.0000, F=0.0096 dt=0.028846. rval= 0.0288
+effective_dt: 850FA74E  - clipping to fuse time.
+effective_dt: 860FA74E IN AIR  ET=2.0192, L=0.0000, F=0.2596 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.0192, L=0.0000, F=0.5096 dt=0.028846. rval= 0.0288
+Color #5 starburst at ( 50.00, 195.65)'
+DIAGNOSTIC: Freeing firework with code 850FA74E.  5 freed.
+DIAGNOSTIC: 5 nodes freed.
+
+
+ At ET =  2.019 (2.019230769230766) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  196.91)'  (   0.00,   65.03) fps with 0.231 sec
+870FA74E at  ( 150.00,  196.91)'  (   0.00,   65.03) fps with 0.481 sec
+effective_dt: 860FA74E IN AIR  ET=2.0481, L=0.0000, F=0.2308 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.0481, L=0.0000, F=0.4808 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.048 (2.048076923076920) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  198.77)'  (   0.00,   64.11) fps with 0.202 sec
+870FA74E at  ( 150.00,  198.77)'  (   0.00,   64.11) fps with 0.452 sec
+effective_dt: 860FA74E IN AIR  ET=2.0769, L=0.0000, F=0.2019 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.0769, L=0.0000, F=0.4519 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.077 (2.076923076923074) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  200.61)'  (   0.00,   63.18) fps with 0.173 sec
+870FA74E at  ( 150.00,  200.61)'  (   0.00,   63.18) fps with 0.423 sec
+effective_dt: 860FA74E IN AIR  ET=2.1058, L=0.0000, F=0.1731 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.1058, L=0.0000, F=0.4231 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.106 (2.105769230769227) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  202.42)'  (   0.00,   62.25) fps with 0.144 sec
+870FA74E at  ( 150.00,  202.42)'  (   0.00,   62.25) fps with 0.394 sec
+effective_dt: 860FA74E IN AIR  ET=2.1346, L=0.0000, F=0.1442 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.1346, L=0.0000, F=0.3942 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.135 (2.134615384615381) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  204.20)'  (   0.00,   61.32) fps with 0.115 sec
+870FA74E at  ( 150.00,  204.20)'  (   0.00,   61.32) fps with 0.365 sec
+effective_dt: 860FA74E IN AIR  ET=2.1635, L=0.0000, F=0.1154 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.1635, L=0.0000, F=0.3654 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.163 (2.163461538461535) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  205.95)'  (   0.00,   60.39) fps with 0.087 sec
+870FA74E at  ( 150.00,  205.95)'  (   0.00,   60.39) fps with 0.337 sec
+effective_dt: 860FA74E IN AIR  ET=2.1923, L=0.0000, F=0.0865 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.1923, L=0.0000, F=0.3365 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.192 (2.192307692307689) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  207.68)'  (   0.00,   59.46) fps with 0.058 sec
+870FA74E at  ( 150.00,  207.68)'  (   0.00,   59.46) fps with 0.308 sec
+effective_dt: 860FA74E IN AIR  ET=2.2212, L=0.0000, F=0.0577 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.2212, L=0.0000, F=0.3077 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.221 (2.221153846153842) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  209.38)'  (   0.00,   58.54) fps with 0.029 sec
+870FA74E at  ( 150.00,  209.38)'  (   0.00,   58.54) fps with 0.279 sec
+effective_dt: 860FA74E IN AIR  ET=2.2500, L=0.0000, F=0.0288 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E IN AIR  ET=2.2500, L=0.0000, F=0.2788 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.250 (2.249999999999996) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+860FA74E at  ( 100.00,  211.06)'  (   0.00,   57.61) fps with 0.000 sec
+870FA74E at  ( 150.00,  211.06)'  (   0.00,   57.61) fps with 0.250 sec
+effective_dt: 860FA74E IN AIR  ET=2.2788, L=0.0000, F=0.0000 dt=0.028846. rval= 0.0288
+effective_dt: 860FA74E  - clipping to fuse time.
+effective_dt: 870FA74E IN AIR  ET=2.2788, L=0.0000, F=0.2500 dt=0.028846. rval= 0.0288
+Color #6 starburst at (100.00, 211.06)'
+DIAGNOSTIC: Freeing firework with code 860FA74E.  6 freed.
+DIAGNOSTIC: 6 nodes freed.
+
+
+ At ET =  2.279 (2.278846153846150) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  212.71)'  (   0.00,   56.68) fps with 0.221 sec
+effective_dt: 870FA74E IN AIR  ET=2.3077, L=0.0000, F=0.2212 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.308 (2.307692307692303) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  214.33)'  (   0.00,   55.75) fps with 0.192 sec
+effective_dt: 870FA74E IN AIR  ET=2.3365, L=0.0000, F=0.1923 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.337 (2.336538461538457) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  215.92)'  (   0.00,   54.82) fps with 0.163 sec
+effective_dt: 870FA74E IN AIR  ET=2.3654, L=0.0000, F=0.1635 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.365 (2.365384615384611) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  217.49)'  (   0.00,   53.90) fps with 0.135 sec
+effective_dt: 870FA74E IN AIR  ET=2.3942, L=0.0000, F=0.1346 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.394 (2.394230769230765) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  219.03)'  (   0.00,   52.97) fps with 0.106 sec
+effective_dt: 870FA74E IN AIR  ET=2.4231, L=0.0000, F=0.1058 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.423 (2.423076923076918) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  220.55)'  (   0.00,   52.04) fps with 0.077 sec
+effective_dt: 870FA74E IN AIR  ET=2.4519, L=0.0000, F=0.0769 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.452 (2.451923076923072) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  222.04)'  (   0.00,   51.11) fps with 0.048 sec
+effective_dt: 870FA74E IN AIR  ET=2.4808, L=0.0000, F=0.0481 dt=0.028846. rval= 0.0288
+
+
+ At ET =  2.481 (2.480769230769226) second:
+    Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
+870FA74E at  ( 150.00,  223.50)'  (   0.00,   50.18) fps with 0.019 sec
+effective_dt: 870FA74E IN AIR  ET=2.5096, L=0.0000, F=0.0192 dt=0.028846. rval= 0.0288
+effective_dt: 870FA74E  - clipping to fuse time.
+Color #7 starburst at (150.00, 224.46)'
+DIAGNOSTIC: Freeing firework with code 870FA74E.  7 freed.
+DIAGNOSTIC: 7 nodes freed.
+
+Done reading: scanf returned -1 
+Total run time is 0.001817703 seconds.

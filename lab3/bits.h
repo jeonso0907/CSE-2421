@@ -23,4 +23,6 @@
 int get_color(unsigned int hex);
 int get_flash(unsigned int hex);
 int get_bang(unsigned int hex);
-
+int get_day(unsigned int hex);
+int get_month(unsigned int hex);
+int get_year(unsigned int hex);

@@ -8,6 +8,7 @@ struct Firework {
 	double y;
 	double vx;
 	double vy;
+	int range_safety_printed;
 	struct Sim *sim;
 };
 

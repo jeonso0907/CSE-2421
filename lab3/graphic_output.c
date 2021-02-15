@@ -3,7 +3,6 @@
 #include "libfire.h"
 #include "struct.h"
 #include "bits.h"
-#include "output.h"
 #include "memory.h"
 #include "memory_func.h"
 #include "calculate.h"

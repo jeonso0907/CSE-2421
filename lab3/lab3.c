@@ -24,7 +24,7 @@ void read_struct(struct Firework *f) {
 				scan = scanf("%lf %X %lf %lf %lf %lf\n", &f->time, &f->hex, &f->fuse, &f->x, &f->vx, &f->vy);
 		}
 		run_simulate(sim_ptr);
-		printf("Done reading: scnaf returned %d \n", scan);
+		printf("Done reading: scanf returned %d \n", scan);
 }
 
 int main() {
@@ -36,6 +36,6 @@ int main() {
 				if (GRAPHICS) fw_teardown();
 				end = now();
 		}
-		printf("Total run time is %.9lf seconds.", (end - start));
+		printf("Total run time is %.9lf seconds.\n", (end - start));
 		return 0;
 }
