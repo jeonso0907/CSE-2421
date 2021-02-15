@@ -53,4 +53,4 @@ lab3: lab3.o memory.o text_output.o calculate.o simulate.o bits.o memory_func.o 
 	gcc -g -o $@ $^ -L. -lfire -lncurses -llinkedlist
 
 run:
-	lab3 < rwb3.fwx > r.output
+	lab3 < unsafe2.fwx > r.output

@@ -397,7 +397,7 @@ DIAGNOSTIC: 7 nodes allocated.
 860FA74E at  ( 100.00,  112.03)'  (   0.00,   98.44) fps with 1.269 sec
 870FA74E at  ( 150.00,  112.03)'  (   0.00,   98.44) fps with 1.519 sec
 Color #1 starburst at (-150.00, 113.91)'
-DIAGNOSTIC: Freeing firework with code 0.  1 freed.
+DIAGNOSTIC: Freeing firework with code 810FA74E.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
@@ -490,7 +490,7 @@ DIAGNOSTIC: 1 nodes freed.
 860FA74E at  ( 100.00,  136.50)'  (   0.00,   90.09) fps with 1.010 sec
 870FA74E at  ( 150.00,  136.50)'  (   0.00,   90.09) fps with 1.260 sec
 Color #2 starburst at (-100.00, 137.36)'
-DIAGNOSTIC: Freeing firework with code BD7000.  2 freed.
+DIAGNOSTIC: Freeing firework with code 820FA74E.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
 
 
@@ -574,7 +574,7 @@ DIAGNOSTIC: 2 nodes freed.
 860FA74E at  ( 100.00,  158.80)'  (   0.00,   81.74) fps with 0.750 sec
 870FA74E at  ( 150.00,  158.80)'  (   0.00,   81.74) fps with 1.000 sec
 Color #3 starburst at (-50.00, 158.80)'
-DIAGNOSTIC: Freeing firework with code BD7070.  3 freed.
+DIAGNOSTIC: Freeing firework with code 830FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
 
@@ -641,7 +641,7 @@ DIAGNOSTIC: 3 nodes freed.
 860FA74E at  ( 100.00,  176.81)'  (   0.00,   74.31) fps with 0.519 sec
 870FA74E at  ( 150.00,  176.81)'  (   0.00,   74.31) fps with 0.769 sec
 Color #4 starburst at (  0.00, 178.23)'
-DIAGNOSTIC: Freeing firework with code BD70E0.  4 freed.
+DIAGNOSTIC: Freeing firework with code 840FA74E.  4 freed.
 DIAGNOSTIC: 4 nodes freed.
 
 
@@ -707,7 +707,7 @@ DIAGNOSTIC: 4 nodes freed.
 860FA74E at  ( 100.00,  195.02)'  (   0.00,   65.96) fps with 0.260 sec
 870FA74E at  ( 150.00,  195.02)'  (   0.00,   65.96) fps with 0.510 sec
 Color #5 starburst at ( 50.00, 195.65)'
-DIAGNOSTIC: Freeing firework with code BD7150.  5 freed.
+DIAGNOSTIC: Freeing firework with code 850FA74E.  5 freed.
 DIAGNOSTIC: 5 nodes freed.
 
 
@@ -764,7 +764,7 @@ DIAGNOSTIC: 5 nodes freed.
 860FA74E at  ( 100.00,  211.06)'  (   0.00,   57.61) fps with 0.000 sec
 870FA74E at  ( 150.00,  211.06)'  (   0.00,   57.61) fps with 0.250 sec
 Color #6 starburst at (100.00, 211.06)'
-DIAGNOSTIC: Freeing firework with code BD71C0.  6 freed.
+DIAGNOSTIC: Freeing firework with code 860FA74E.  6 freed.
 DIAGNOSTIC: 6 nodes freed.
 
 
@@ -807,8 +807,8 @@ DIAGNOSTIC: 6 nodes freed.
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 870FA74E at  ( 150.00,  223.50)'  (   0.00,   50.18) fps with 0.019 sec
 Color #7 starburst at (150.00, 224.46)'
-DIAGNOSTIC: Freeing firework with code BD7230.  7 freed.
+DIAGNOSTIC: Freeing firework with code 870FA74E.  7 freed.
 DIAGNOSTIC: 7 nodes freed.
 
 Done reading: scanf returned -1
-Total run time is 0.001294136 seconds.
+Total run time is 0.002007484 seconds.

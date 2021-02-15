@@ -26,7 +26,7 @@ effective_dt: C50A87BA  - clipping to fuse time.
 effective_dt: A60A87BA HOLD ET=0.0661, L=0.1000, F=0.0000, dt=0.033057. rval= 0.0000
 Color #5 starburst at (100.00,   3.29)'
 Flash at (100.00,   3.29)'
-DIAGNOSTIC: Freeing firework with code 0.  1 freed.
+DIAGNOSTIC: Freeing firework with code C50A87BA.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
@@ -47,7 +47,7 @@ effective_dt: A60A87BA LAUNCH ET=0.1322, L=0.1000, F=0.0000 dt=0.033057. rval= 0
 effective_dt: A60A87BA  - clipping to fuse time.
 Color #6 starburst at (  0.00,   0.00)'
 Boom at (  0.00,   0.00)'
-DIAGNOSTIC: Freeing firework with code 257A070.  2 freed.
+DIAGNOSTIC: Freeing firework with code A60A87BA.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
 
 
@@ -1311,8 +1311,8 @@ effective_dt: F70A87BA IN AIR  ET=7.0412, L=0.0000, F=0.2009 dt=0.033057. rval= 
 F70A87BA at  ( 139.53,    1.19)'  (  39.70, -113.10) fps with 0.168 sec
 effective_dt: F70A87BA IN AIR  ET=7.0742, L=0.0000, F=0.1678 dt=0.033057. rval= 0.0331
 RANGE SAFETY WARNING: At 7.074 sec F70A87BA (made on 8-10-1978) impacts at (140.85, -2.57)' with 0.135 seconds remaining
-DIAGNOSTIC: Freeing firework with code 257A000.  3 freed.
+DIAGNOSTIC: Freeing firework with code F70A87BA.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
 Done reading: scanf returned -1
-Total run time is 0.003099442 seconds.
+Total run time is 0.001358509 seconds.

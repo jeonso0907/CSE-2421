@@ -1227,7 +1227,7 @@ effective_dt: C10FA74E IN AIR  ET=3.5192, L=0.0000, F=0.0096 dt=0.028846. rval= 
 effective_dt: C10FA74E  - clipping to fuse time.
 Color #1 starburst at (-117.50, 152.93)'
 Flash at (-117.50, 152.93)'
-DIAGNOSTIC: Freeing firework with code 0.  1 freed.
+DIAGNOSTIC: Freeing firework with code C10FA74E.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
@@ -1305,7 +1305,7 @@ effective_dt: A40FA74E IN AIR  ET=3.7788, L=1.5000, F=0.2500 dt=0.028846. rval= 
 Color #7 starburst at (  0.00, 245.22)'
 Flash at (  0.00, 245.22)'
 Boom at (  0.00, 245.22)'
-DIAGNOSTIC: Freeing firework with code 18A60E0.  2 freed.
+DIAGNOSTIC: Freeing firework with code F70FA74E.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
 
 
@@ -1358,8 +1358,8 @@ effective_dt: A40FA74E IN AIR  ET=4.0096, L=1.5000, F=0.0192 dt=0.028846. rval= 
 effective_dt: A40FA74E  - clipping to fuse time.
 Color #4 starburst at (105.00, 174.46)'
 Boom at (105.00, 174.46)'
-DIAGNOSTIC: Freeing firework with code 18A6070.  3 freed.
+DIAGNOSTIC: Freeing firework with code A40FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
 Done reading: scanf returned -1
-Total run time is 0.001872540 seconds.
+Total run time is 0.002053261 seconds.

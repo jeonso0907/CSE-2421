@@ -4,6 +4,6 @@ void firework_setup(struct Firework **fc_ptr1, struct Firework **fc_ptr2, struct
 void insert_struct(struct Firework *f);
 void iterate_struct(struct Sim *s, void (*func_ptr)(void *data));
 void sort_struct(struct Sim *s);
-int some_struct(struct Sim *s);
+int some_struct(struct Sim *s, int (*func_ptr)(void *data));
 double least_struct(struct Sim *s, double (*func_ptr)(void *data));
 void deleteSome_struct(struct Sim *s, void (*func_ptr)(void *data));

@@ -643,7 +643,7 @@ effective_dt: 850FA74E IN AIR  ET=1.0096, L=0.0000, F=1.0192 dt=0.028846. rval= 
 effective_dt: 860FA74E IN AIR  ET=1.0096, L=0.0000, F=1.2692 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E IN AIR  ET=1.0096, L=0.0000, F=1.5192 dt=0.028846. rval= 0.0288
 Color #1 starburst at (-150.00, 113.91)'
-DIAGNOSTIC: Freeing firework with code 0.  1 freed.
+DIAGNOSTIC: Freeing firework with code 810FA74E.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
 
@@ -791,7 +791,7 @@ effective_dt: 850FA74E IN AIR  ET=1.2692, L=0.0000, F=0.7596 dt=0.028846. rval= 
 effective_dt: 860FA74E IN AIR  ET=1.2692, L=0.0000, F=1.0096 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E IN AIR  ET=1.2692, L=0.0000, F=1.2596 dt=0.028846. rval= 0.0288
 Color #2 starburst at (-100.00, 137.36)'
-DIAGNOSTIC: Freeing firework with code EE2000.  2 freed.
+DIAGNOSTIC: Freeing firework with code 820FA74E.  2 freed.
 DIAGNOSTIC: 2 nodes freed.
 
 
@@ -921,7 +921,7 @@ effective_dt: 850FA74E IN AIR  ET=1.5288, L=0.0000, F=0.5000 dt=0.028846. rval= 
 effective_dt: 860FA74E IN AIR  ET=1.5288, L=0.0000, F=0.7500 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E IN AIR  ET=1.5288, L=0.0000, F=1.0000 dt=0.028846. rval= 0.0288
 Color #3 starburst at (-50.00, 158.80)'
-DIAGNOSTIC: Freeing firework with code EE2070.  3 freed.
+DIAGNOSTIC: Freeing firework with code 830FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
 
@@ -1021,7 +1021,7 @@ effective_dt: 850FA74E IN AIR  ET=1.7596, L=0.0000, F=0.2692 dt=0.028846. rval= 
 effective_dt: 860FA74E IN AIR  ET=1.7596, L=0.0000, F=0.5192 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E IN AIR  ET=1.7596, L=0.0000, F=0.7692 dt=0.028846. rval= 0.0288
 Color #4 starburst at (  0.00, 178.23)'
-DIAGNOSTIC: Freeing firework with code EE20E0.  4 freed.
+DIAGNOSTIC: Freeing firework with code 840FA74E.  4 freed.
 DIAGNOSTIC: 4 nodes freed.
 
 
@@ -1115,7 +1115,7 @@ effective_dt: 850FA74E  - clipping to fuse time.
 effective_dt: 860FA74E IN AIR  ET=2.0192, L=0.0000, F=0.2596 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E IN AIR  ET=2.0192, L=0.0000, F=0.5096 dt=0.028846. rval= 0.0288
 Color #5 starburst at ( 50.00, 195.65)'
-DIAGNOSTIC: Freeing firework with code EE2150.  5 freed.
+DIAGNOSTIC: Freeing firework with code 850FA74E.  5 freed.
 DIAGNOSTIC: 5 nodes freed.
 
 
@@ -1191,7 +1191,7 @@ effective_dt: 860FA74E IN AIR  ET=2.2788, L=0.0000, F=0.0000 dt=0.028846. rval= 
 effective_dt: 860FA74E  - clipping to fuse time.
 effective_dt: 870FA74E IN AIR  ET=2.2788, L=0.0000, F=0.2500 dt=0.028846. rval= 0.0288
 Color #6 starburst at (100.00, 211.06)'
-DIAGNOSTIC: Freeing firework with code EE21C0.  6 freed.
+DIAGNOSTIC: Freeing firework with code 860FA74E.  6 freed.
 DIAGNOSTIC: 6 nodes freed.
 
 
@@ -1243,8 +1243,8 @@ effective_dt: 870FA74E IN AIR  ET=2.4808, L=0.0000, F=0.0481 dt=0.028846. rval= 
 effective_dt: 870FA74E IN AIR  ET=2.5096, L=0.0000, F=0.0192 dt=0.028846. rval= 0.0288
 effective_dt: 870FA74E  - clipping to fuse time.
 Color #7 starburst at (150.00, 224.46)'
-DIAGNOSTIC: Freeing firework with code EE2230.  7 freed.
+DIAGNOSTIC: Freeing firework with code 870FA74E.  7 freed.
 DIAGNOSTIC: 7 nodes freed.
 
 Done reading: scanf returned -1
-Total run time is 0.002559185 seconds.
+Total run time is 0.001887083 seconds.

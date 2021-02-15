@@ -49,6 +49,6 @@ double least_struct(struct Sim *s, double (*func_ptr)(void *data)) {
 		return least(s->list, func_ptr);
 }
 
-int some_struct(struct Sim *s) {
-		return some(s->list, is_not_null);
+int some_struct(struct Sim *s, int (*func_ptr)(void *data)) {
+		return some(s->list, func_ptr);
 }

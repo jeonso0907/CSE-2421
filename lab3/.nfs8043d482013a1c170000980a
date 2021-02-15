@@ -1,8 +1,8 @@
-DIAGNOSTIC: Allocating space for code A60A87BA.  1 allocated.
+DIAGNOSTIC: Allocating space for code A60A87BA. 1 allocated.
 DIAGNOSTIC: 1 nodes allocated.
-DIAGNOSTIC: Allocating space for code C50A87BA.  2 allocated.
+DIAGNOSTIC: Allocating space for code C50A87BA. 2 allocated.
 DIAGNOSTIC: 2 nodes allocated.
-DIAGNOSTIC: Allocating space for code F70A87BA.  3 allocated.
+DIAGNOSTIC: Allocating space for code F70A87BA. 3 allocated.
 DIAGNOSTIC: 3 nodes allocated.
 
  At ET =  0.000 (0.000000000000000) second:
@@ -18,7 +18,7 @@ F70A87BA at  (-138.69,    3.73)'  (  39.70,  112.38) fps with 7.176 sec
 C50A87BA at  ( 100.00,    2.20)'  (   0.00,   99.29) fps with 0.011 sec
 A60A87BA at  (   0.00,    0.00)'  Holding until 0.100
 Color #5 starburst at (100.00,   3.29)'
-Flash at (100.00,   3.29)'
+Flash at Flash at (100.00,   3.29)'
 DIAGNOSTIC: Freeing firework with code C50A87BA.  1 freed.
 DIAGNOSTIC: 1 nodes freed.
 
@@ -552,9 +552,9 @@ F70A87BA at  (  -2.20,  199.94)'  (  39.70,    1.76) fps with 3.738 sec
  At ET =  3.504 (3.504055007052190) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 F70A87BA at  (  -0.89,  199.98)'  (  39.70,    0.70) fps with 3.705 sec
+
+
 RANGE SAFETY WARNING: F70A87BA is falling at 200.0' alt and 0.4' downrange with 3.672s till detonation.
-
-
  At ET =  3.537 (3.537112129760229) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 F70A87BA at  (   0.42,  199.98)'  (  39.70,   -0.36) fps with 3.672 sec
@@ -1088,9 +1088,11 @@ F70A87BA at  ( 138.22,    4.91)'  (  39.70, -112.04) fps with 0.201 sec
  At ET =  7.041 (7.041167136812429) second:
     Code     (      X,       Y)'  (     VX,      VY) fps       Fuse sec
 F70A87BA at  ( 139.53,    1.19)'  (  39.70, -113.10) fps with 0.168 sec
-RANGE SAFETY WARNING: At 7.074 sec F70A87BA (made on 8-10-1978) impacts at (140.85, -2.57)' with 0.135 seconds remaining
+Color #7 starburst at (146.20, -18.25)'
+Flash at Flash at (146.20, -18.25)'
+Boom at (146.20, -18.25)'
 DIAGNOSTIC: Freeing firework with code F70A87BA.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
-Done reading: scanf returned -1
-Total run time is 0.002270937 seconds.
+Done reading: scnaf returned -1 
+Total run time is 0.001198292 seconds.

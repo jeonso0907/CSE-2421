@@ -43,5 +43,5 @@ void call_graphic_output(struct Sim *s) {
 		deleteSome_struct(s, &draw_effect);
 		iterate_struct(s, &update_data);
 		sort_struct(s);
-		if (!some_struct(s)) draw_fade(s);
+		if (!some_struct(s, &is_not_null)) draw_fade(s);
 }

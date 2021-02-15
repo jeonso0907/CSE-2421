@@ -12,7 +12,7 @@
 
 void allocate_output(struct Firework *f, int num_allocated) {
 		if (TEXT) {
-				printf("DIAGNOSTIC: Allocating space for code %X. %d allocated.\n", f->hex, num_allocated);
+				printf("DIAGNOSTIC: Allocating space for code %X.  %d allocated.\n", f->hex, num_allocated);
 		}
 }
 
@@ -21,7 +21,8 @@ void dynamic_error_output() {
 }
 
 void effect_output(struct Firework *f) {
-		if (get_flash(f->hex)) printf("Flash at Flash at (%6.2lf, %6.02lf)'\n", f->x, f->y);
+		printf("\nColor #%d starburst at (%6.2lf, %6.2lf)'\n", get_color(f->hex), f->x, f->y);
+		if (get_flash(f->hex)) printf("Flash at (%6.2lf, %6.02lf)'\n", f->x, f->y);
 		if (get_bang(f->hex)) printf("Boom at (%6.2lf, %6.2lf)'\n", f->x, f->y);
 }
 
@@ -30,8 +31,8 @@ void free_output(void *data) {
 		struct Firework *f; 
 		f = data;
 		last_pos(f);
-		printf("\nColor #%d starburst at (%6.2lf, %6.2lf)'\n", get_color(f->hex), f->x, f->y);
-		effect_output(f);
+		if ((f->y > 0 || f->time < f->sim->et) && f->fuse < f->sim->dt) effect_output(f);
+		else printf("\n");
 		printf("DIAGNOSTIC: Freeing firework with code %X.  %d freed.\n", f->hex, num_freed);
 		num_freed++;
 }
@@ -56,24 +57,25 @@ void data_output(void *data) {
 }
 
 void range_safety_output(struct Firework *f) {
-		if (f->vy < 0) printf("\nRANGE SAFETY WARNING: %X is falling at %.1lf' alt and %.1lf' downrange with %.3lfs till detonation.", f->hex, f->y, f->x, f->fuse);
+		if (f->vy < 0 && f->y > 0) printf("\nRANGE SAFETY WARNING: %X is falling at %.1lf' alt and %.1lf' downrange with %.3lfs till detonation.", f->hex, f->y, f->x, f->fuse);
+		if (f->y < 0) printf("\nRANGE SAFETY WARNING: At %.3lf sec %X (made on 8-10-1978) impacts at (%6.2lf,%6.2lf)' with %.3lf seconds remaining", f->sim->et, f->hex, f->x, f->y, f->fuse);
 }
 
-void space_output(struct Sim *s, double least_fuse) {
+void space_output(struct Sim *s, int is_free) { 
 		if (s->et > 0) {
-				if (least_fuse < s->dt) printf("\n");	
+				if (is_free) printf("\n");	
 				else printf("\n\n");
 		}
 }
 
 void call_text_output(struct Sim *s) {
-		double least_fuse = 0;
+		int is_free = 0;
 		et_output(s);
 		iterate_struct(s, &data_output);
 		get_et(s);
-		least_fuse = least_struct(s, get_least_fuse);
+		is_free = some_struct(s, &fuse_over);
 		deleteSome_struct(s, &free_output);
-		space_output(s, least_fuse);
 		iterate_struct(s, &update_data);
+		space_output(s, is_free);
 		sort_struct(s);
 }

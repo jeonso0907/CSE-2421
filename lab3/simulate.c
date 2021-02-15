@@ -16,7 +16,7 @@ void call_output(struct Sim *s) {
 void run_simulate(struct Sim *s) {
 		int i = 0;
 		s->dt = least_struct(s, &get_least_dt);
-		while (some_struct(s)) {
+		while (some_struct(s, &is_not_null)) {
 				call_output(s);
 		}
 }
