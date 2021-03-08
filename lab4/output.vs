@@ -1,0 +1,14 @@
+void begin_normal_output(struct Sim *site);
+void detonate(struct FW *fptr);
+void effects(struct Sim *site);
+void fade(struct Sim *site);
+void finalize_normal_output(struct Sim *site);
+void graphical_out(struct FW *fptr);
+void impact(struct FW *fptr);
+void make_boom(struct FW *fptr);
+void make_flash(struct FW *fptr);
+void make_star(struct FW *fptr);
+void normal_output(void *data);
+void text_header(struct Sim *site);
+void text_out(struct FW *fptr);
+unsigned int to_ms(double sec);
