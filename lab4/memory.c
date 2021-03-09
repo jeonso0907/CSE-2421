@@ -39,6 +39,8 @@
 #include "skymath.h"
 #include "functions.h"
 
+#include "altmem.h"
+
 void free_fw(struct FW *dfw)
 {
 	static int free_count = 0;
@@ -46,7 +48,7 @@ void free_fw(struct FW *dfw)
 	{
 	    free_count++;
 	    if(TEXT)printf("DIAGNOSTIC: Freeing firework with code %X.  %d freed.\n", dfw->code, free_count);
-	    free(dfw);
+	    alternative_free(dfw);
 	}
 }
 
@@ -56,7 +58,7 @@ struct FW *to_dynamic_memory(struct FW *fptr)
 	struct FW *dfw = NULL;
 	static int allocations = 0;
 
-	if(dfw = malloc(sizeof(*dfw)))
+	if(dfw = alternative_malloc(sizeof(*dfw)))
 	{
 	    /* success! do the copy */
 	    allocations++;

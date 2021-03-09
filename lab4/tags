@@ -41,11 +41,22 @@ begin_normal_output	output.c	/^void begin_normal_output(struct Sim *site)$/;"	f
 bits	bits.c	/^int bits(int shift, int many, int source)$/;"	f
 clone_to_list	memory.c	/^void clone_to_list(struct FW *fptr, struct Sim *site)$/;"	f
 code	structs.h	/^	unsigned int code;$/;"	m	struct:FW
+compare	p3_sort.c	/^int compare(void *data1, void *data2) {$/;"	f
 data	node.h	/^	void *data;$/;"	m	struct:Node
-data_sequence	lab3.c	/^int data_sequence()$/;"	f
+data_sequence	lab4.c	/^int data_sequence()$/;"	f
 decel_and_warn	skymath.c	/^double decel_and_warn(struct FW *fptr, double dt)$/;"	f
+deleteSome	linkedlist.c	/^void deleteSome(void **p2headptr, int (*CriterianFunc)(void *data), void (*ActionFunc)(void *data), int verbose) {$/;"	f
+deleteSome	p4_insertDelete.c	/^static void deleteSome(void **p2headptr, int (*CriterianFunc)(void *data), void (*ActionFunc)(void *data), int verbose) {$/;"	f	file:
 detonate	output.c	/^void detonate(struct FW *fptr)$/;"	f
 dt	structs.h	/^	double dt;$/;"	m	struct:Sim
+dynamic_allocate	p1_iterate.c	/^void dynamic_allocate(struct FW **fptr, struct FW **fptrCopy, struct Sim **site) {$/;"	f
+dynamic_allocate	p2_least.c	/^void dynamic_allocate(struct FW **fptr, struct FW **fptrCopy, struct Sim **site) {$/;"	f
+dynamic_allocate	p3_sort.c	/^void dynamic_allocate(struct FW **fptr, struct FW **fptrCopy, struct Sim **site) {$/;"	f
+dynamic_allocate	p4_insertDelete.c	/^static int dynamic_allocate(struct FW **fptr, struct FW **fptrCopy, struct Sim **site) {$/;"	f	file:
+dynamic_allocation_deleteSome	linkedlist.c	/^static int dynamic_allocation_deleteSome(struct Node **nextPtr, struct Node **prevPtr) {$/;"	f	file:
+dynamic_allocation_deleteSome	p4_insertDelete.c	/^static int dynamic_allocation_deleteSome(struct Node **nextPtr, struct Node **prevPtr) {$/;"	f	file:
+dynamic_allocation_insert	linkedlist.c	/^static int dynamic_allocation_insert(struct Node **newNode) {$/;"	f	file:
+dynamic_allocation_insert	p4_insertDelete.c	/^static int dynamic_allocation_insert(struct Node **newNode, struct Node **nextPtr, struct Node **prevPtr) {$/;"	f	file:
 effective_dt	skymath.c	/^double effective_dt(struct FW *fptr)$/;"	f
 effects	output.c	/^void effects(struct Sim *site)$/;"	f
 fade	output.c	/^void fade(struct Sim *site)$/;"	f
@@ -55,23 +66,55 @@ free_fw	memory.c	/^void free_fw(struct FW *dfw)$/;"	f
 fuse	structs.h	/^	double fuse, launch;$/;"	m	struct:FW
 graphical_out	output.c	/^void graphical_out(struct FW *fptr)$/;"	f
 impact	output.c	/^void impact(struct FW *fptr)$/;"	f
+insert	linkedlist.c	/^int insert(void **p2headptr, void *data, int (*ComparisonFunc)(void *data1, void *data2), int verbose) {$/;"	f
+insert	p4_insertDelete.c	/^int insert(void **p2headptr, void *data, int (*ComparisonFunc)(void *data1, void *data2), int verbose) {$/;"	f
+is_done	p4_insertDelete.c	/^int is_done(void *data) {$/;"	f
 is_finished	functions.c	/^int is_finished(void * data)$/;"	f
+is_same	linkedlist.c	/^static int is_same(void *data1, void *data2, int (*ComparisonFunc)(void *data1, void *data2)) {$/;"	f	file:
+iterate	linkedlist.c	/^void iterate(void *p2headptr, void (*func_ptr)(void *data)) {$/;"	f
+iterate	p1_iterate.c	/^void iterate(void *p2headptr, void (*func_ptr)(void *data)) {$/;"	f
 launch	structs.h	/^	double fuse, launch;$/;"	m	struct:FW
 launch_order	functions.c	/^int launch_order(void *data1, void *data2)$/;"	f
-main	lab3.c	/^int main()$/;"	f
+launch_order	p1_iterate.c	/^int launch_order(void *data1, void *data2){$/;"	f
+launch_order	p2_least.c	/^int launch_order(void *data1, void *data2){$/;"	f
+launch_order	p3_sort.c	/^int launch_order(void *data1, void *data2){$/;"	f
+launch_order	p4_insertDelete.c	/^int launch_order(void *data1, void *data2){$/;"	f
+least	linkedlist.c	/^double least(void *p2headptr, double (*func_ptr)(void *data)) {$/;"	f
+least	p2_least.c	/^double least(void *p2headptr, double (*func_ptr)(void *data)) {$/;"	f
+least_type	p2_least.c	/^double least_type(void *data) {$/;"	f
+main	lab4.c	/^int main()$/;"	f
+main	p1_iterate.c	/^int main() {$/;"	f
+main	p2_least.c	/^int main() {$/;"	f
+main	p3_sort.c	/^int main() {$/;"	f
+main	p4_insertDelete.c	/^int main() {$/;"	f
+main	p5_command.c	/^int main(int argc, char** argv) {$/;"	f
 make_boom	output.c	/^void make_boom(struct FW *fptr)$/;"	f
 make_flash	output.c	/^void make_flash(struct FW *fptr)$/;"	f
 make_star	output.c	/^void make_star(struct FW *fptr)$/;"	f
 more_to_come	skymath.c	/^int more_to_come(struct Sim *site)$/;"	f
 newX	skymath.c	/^double newX( struct FW *fptr, double dt)$/;"	f
 newY	skymath.c	/^double newY(struct FW *fptr, double dt)$/;"	f
-new_world	lab3.c	/^struct Sim new_world()$/;"	f
 next	node.h	/^	struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node
 normal_output	output.c	/^void normal_output(void *data)$/;"	f
 p2headptr	structs.h	/^	void *p2headptr;$/;"	m	struct:Sim
-read_loop	lab3.c	/^int read_loop(struct Sim *site)$/;"	f
-run_sim	lab3.c	/^void run_sim(struct Sim *site)$/;"	f
+print	p1_iterate.c	/^void print(void *data) {$/;"	f
+print	p3_sort.c	/^void print(void *p2headptr) {$/;"	f
+print	p4_insertDelete.c	/^void print(void *p2headptr) {$/;"	f
+print_deleted_message	p4_insertDelete.c	/^void print_deleted_message(void *data) {$/;"	f
+print_freed_node	linkedlist.c	/^static void print_freed_node() {$/;"	f	file:
+print_freed_node	p4_insertDelete.c	/^static void print_freed_node() {$/;"	f	file:
+print_list_size	p4_insertDelete.c	/^void print_list_size(void *p2headptr) {$/;"	f
+print_node_allocated	linkedlist.c	/^static void print_node_allocated(int is_allocated) {$/;"	f	file:
+print_node_allocated	p4_insertDelete.c	/^static void print_node_allocated(int is_allocated) {$/;"	f	file:
+read_loop	lab4.c	/^int read_loop(struct Sim *site)$/;"	f
+recycle_node	linkedlist.c	/^static void recycle_node(struct Node **nextPtr, struct Node **prevPtr) {$/;"	f	file:
+recycle_node	p4_insertDelete.c	/^static void recycle_node(struct Node **nextPtr, struct Node **prevPtr) {$/;"	f	file:
+run_sim	lab4.c	/^void run_sim(struct Sim *site)$/;"	f
 set_dt	skymath.c	/^void set_dt(struct FW *fptr, struct Sim *site) \/* in seconds *\/$/;"	f
+sort	linkedlist.c	/^void sort(void *p2headptr, int (*ComparisonFunc)(void *data1, void *data2)) {$/;"	f
+sort	p3_sort.c	/^void sort(void *p2headptr, int (*ComparisonFunc)(void *data1, void *data2)) {$/;"	f
+swap	linkedlist.c	/^static void swap(void **data1, void **data2) {$/;"	f	file:
+swap	p3_sort.c	/^static void swap(void **data1, void **data2) {$/;"	f	file:
 text_header	output.c	/^void text_header(struct Sim *site)$/;"	f
 text_out	output.c	/^void text_out(struct FW *fptr)$/;"	f
 to_dynamic_memory	memory.c	/^struct FW *to_dynamic_memory(struct FW *fptr)$/;"	f
