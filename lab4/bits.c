@@ -28,17 +28,14 @@
 
 
 /* Copyright 2021 Neil Kirby - not for disclosure without permission */
+/* Edited by Sooyoung Jeon */
 
-int bits(int shift, int many, int source)
-{
-	int temp, mask = 0;
+/* (SOOYOUNG JEON) Edited the bits function to directly apply 
+ * the mask to reduce the number of lines of code */
 
-	temp = source >> shift;
-	while (many > 0)
-	{
-	    mask = (mask << 1) + 1;
-	    many--;
-	}
-	return (temp & mask);
+/* Mask the required data including effects of the fireworks, color, and created date from the hex code */
+int bits(int shift, int mask, int source) {
 
+	source = source >> shift;
+	return (source & mask);
 }

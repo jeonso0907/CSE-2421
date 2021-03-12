@@ -26,7 +26,14 @@
  */
 
 /* how big is the sky? */
-
+/* Edited by Sooyoung Jeon */
+ 
+/* (SOOYOUNG JEON) To avoid the 10 line limist in effective_dt function, 
+ * define the case number for each effective delta time case  to avoid the magic number */
+  
+#define HOLD 1 /* Case for the fireworks not launcehd yet */
+#define IN_AIR 2 /* Case for the fireworks launched and in the air */
+#define LAUNCH 3 /* Case for the fireworks about to launch */
 
 #define GRAVITY -32.17405
 

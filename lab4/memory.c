@@ -27,6 +27,7 @@
 
 
 /* copyright 2021 Neil Kirby - not for disclosure without permission */
+/* Edited by Sooyoung Jeon */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,55 +42,49 @@
 
 #include "altmem.h"
 
-void free_fw(struct FW *dfw)
-{
+/* Free the allocated firework memory */
+void free_fw(struct FW *dfw) {
+
 	static int free_count = 0;
-	if(dfw)
+	if (dfw)
 	{
 	    free_count++;
-	    if(TEXT)printf("DIAGNOSTIC: Freeing firework with code %X.  %d freed.\n", dfw->code, free_count);
+	    if (TEXT)printf("DIAGNOSTIC: Freeing firework with code %X.  %d freed.\n", dfw->code, free_count);
 	    alternative_free(dfw);
 	}
 }
 
 /* take a fw and copy it to new dynamic memory if I can */
-struct FW *to_dynamic_memory(struct FW *fptr)
-{
+struct FW *to_dynamic_memory(struct FW *fptr) {
+
 	struct FW *dfw = NULL;
 	static int allocations = 0;
 
-	if(dfw = alternative_malloc(sizeof(*dfw)))
-	{
+	if (dfw = alternative_malloc(sizeof(*dfw))) {
 	    /* success! do the copy */
 	    allocations++;
 	    *dfw = *fptr;
-	    if(TEXT) printf("DIAGNOSTIC: Allocating space for code %X.  %d allocated.\n", dfw->code, allocations);
-	}
-	else
-	{
-if(TEXT)printf("ERROR: memory.c: to_dynamic_memory: malloc failed\n");
+	    if (TEXT) printf("DIAGNOSTIC: Allocating space for code %X.  %d allocated.\n", dfw->code, allocations);
+	} else {
+		if (TEXT) printf("ERROR: memory.c: to_dynamic_memory: malloc failed\n");
 	}
 
 	return dfw;
 }
 
-void clone_to_list(struct FW *fptr, struct Sim *site)
-{
+/* Clonde the new firework to the linked list */
+void clone_to_list(struct FW *fptr, struct Sim *site) {
+
 	struct FW *dfw; /* not an airport, but a dynamic memory firework */
 
-
-	if( dfw = to_dynamic_memory(fptr) )
-	{
-	    if(insert(&site->p2headptr, dfw, launch_order, TEXT))
-	    {
+	if ( dfw = to_dynamic_memory(fptr) ) {
+	    if (insert(&site->p2headptr, dfw, launch_order, TEXT)) {
 		/* do I want to set dt for site here? */
 		/* only if we succeeded in getting it into the list */
-		set_dt(dfw, site);
-	    }
-	    else
-	    {
+			set_dt(dfw, site);
+	    } else {
 	    	/* give back the dynamic memory */
-		free_fw(dfw);
+			free_fw(dfw);
 	    }
 	}
 }

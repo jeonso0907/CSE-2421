@@ -28,26 +28,27 @@
 
 /* header file for bits.c */
 
+/* (SOOYOUNG JEON) Edited the BITS of the mask to directly apply the masking processin the bits function */
 
 /* used to get data out of the code */
 #define STAR_SHIFT 31
-#define STAR_BITS 1
+#define STAR_BITS 0x1
 #define FLASH_SHIFT 30
-#define FLASH_BITS 1
+#define FLASH_BITS 0x1
 #define BOOM_SHIFT 29
-#define BOOM_BITS 1
+#define BOOM_BITS 0x1
 
 #define COLOR_SHIFT 24
-#define COLOR_BITS 4
+#define COLOR_BITS 0xF
 
 #define DAY_SHIFT 16
-#define DAY_BITS 8
+#define DAY_BITS 0xFF
 
 #define MONTH_SHIFT 12
-#define MONTH_BITS 4
+#define MONTH_BITS 0xF
 
 #define YEAR_SHIFT 0
-#define YEAR_BITS 12
+#define YEAR_BITS 0xFFF
 
 
 

@@ -1362,4 +1362,4 @@ DIAGNOSTIC: Freeing firework with code A40FA74E.  3 freed.
 DIAGNOSTIC: 3 nodes freed.
 
 Done reading: scanf returned -1
-Total run time is 0.048203707 seconds.
+Total run time is 0.036359072 seconds.

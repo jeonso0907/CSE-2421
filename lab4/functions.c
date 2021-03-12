@@ -27,6 +27,7 @@
 
  
  /* COpyright 2021 Neil Kirby - not for disclosure without permission */
+ /* Edited by Sooyoung Jeon */
 
 /* the home for functions called by the list */
 
@@ -47,16 +48,18 @@
 
 /********** comparison functions *********/
 
-int altitude_order(void *data1, void *data2)
-{
+/* Order of the altitude */
+int altitude_order(void *data1, void *data2) {
+
 	struct FW *f1 = data1, *f2 = data2;
 
 	return( f1->Y > f2->Y);
 
 }
 
-int launch_order(void *data1, void *data2)
-{
+/* Order of the launch time */
+int launch_order(void *data1, void *data2) {
+
 	struct FW *f1 = data1, *f2 = data2;
 
 	return( f1->launch < f2->launch);
@@ -64,36 +67,34 @@ int launch_order(void *data1, void *data2)
 }
 
 /********* criteria functions ************/
-int is_finished(void * data)
-{
+
+/* Check rather the firework is finished or not */
+int is_finished(void * data) {
+
 	struct FW *fptr = data;
 
 	/* I don't finish until after I launch */
-	if(fptr->launch > fptr->world->ET)return (0);
+	if (fptr->launch > fptr->world->ET)return (0);
 
 	/* after launch I need to be "in the air" */
 	return( fptr->Y < 0.0 || fptr->fuse <= 0.0);
 }
 
-
 /************** action / disposal functions ********/
-void finish(void *data)
-{
+
+/* Finish the ending firework with the proper effects */
+void finish(void *data) {
+
 	struct FW *fptr = data;
-	if(fptr->Y >= 0.0)
-	{
-	    if(fptr->fuse <= 0.0) detonate(fptr);
-	    else
-	    {
-		if(TEXT)
-		{
-printf("ERROR: functions.c: finish: %X is still live %lf in air %lf\n", 
+	if (fptr->Y >= 0.0) {
+	    if (fptr->fuse <= 0.0) detonate(fptr);
+	    else {
+			if(TEXT) {
+			printf("ERROR: functions.c: finish: %X is still live %lf in air %lf\n", 
 			fptr->code, fptr->fuse, fptr->Y);
-		}
-    	    }
-	}
-	else
-	{
+			}
+    	}
+	} else {
 	    impact(fptr);
 	}
 

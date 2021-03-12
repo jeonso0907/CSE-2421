@@ -30,6 +30,7 @@ struct Sim {
 	double ET; /* all caps to make it easier to tell apart from dt */
 	double dt;
 	void *p2headptr;
+	FILE *file;
 	};
 
 struct FW{
