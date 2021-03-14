@@ -39,6 +39,7 @@
 
 #include "memory.h"
 #include "output.h"
+#include "skymath.h"
 
 /***** some callback functions are not here - 
  * output owns normal output
@@ -101,4 +102,17 @@ void finish(void *data) {
 	free_fw(fptr);
 
 }
+
+/************** numeric functions ********/
+
+/* Get the delta time in the firework */
+double get_least_dt(void *data) {
+	
+	struct FW *fptr = data;
+	return newDT(fptr);
+}
+
+
+
+
 

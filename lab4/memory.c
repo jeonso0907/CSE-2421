@@ -81,7 +81,7 @@ void clone_to_list(struct FW *fptr, struct Sim *site) {
 	    if (insert(&site->p2headptr, dfw, launch_order, TEXT)) {
 		/* do I want to set dt for site here? */
 		/* only if we succeeded in getting it into the list */
-			set_dt(dfw, site);
+			set_dt(site);
 	    } else {
 	    	/* give back the dynamic memory */
 			free_fw(dfw);

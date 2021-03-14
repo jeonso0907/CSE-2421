@@ -56,6 +56,8 @@ int insert(void **p2headptr, void *data, int (*ComparisonFunc)(void *data1, void
 		curr = *p2headptr;
 		newNode->data = data;
 
+		/* If the new node is the first node, change the head pointer 
+		 * else, loop until to find the appropriate position ofr the new node */
 		if (curr == NULL || (!ComparisonFunc(curr->data, newNode->data) && !is_same(curr->data, newNode->data, ComparisonFunc))) {
 			newNode->next = curr;
 			*p2headptr = newNode;
@@ -85,6 +87,7 @@ static void print_freed_node() {
 		freed_node++;
 }
 
+/* Free the finished nodes */
 static void recycle_node(struct Node *node) {
 
 	if (node != NULL) {
@@ -98,6 +101,7 @@ void deleteSome(void **p2headptr, int (*CriterianFunc)(void *data), void (*Actio
 	struct Node *curr, *prev;
 	curr = *p2headptr;
 
+	/* Loop for continuous nodes including the head node */
 	while (curr != NULL && CriterianFunc(curr->data)) {
 		*p2headptr = curr->next;
 		ActionFunc(curr->data);
@@ -105,7 +109,8 @@ void deleteSome(void **p2headptr, int (*CriterianFunc)(void *data), void (*Actio
 		curr = *p2headptr;
 		print_freed_node();
 	}
-
+	
+	/* Loop for continous nodes excluding the head node */
 	while (curr != NULL) {
 		while (curr != NULL && !CriterianFunc(curr->data)) {
 			prev = curr;
@@ -123,6 +128,7 @@ void deleteSome(void **p2headptr, int (*CriterianFunc)(void *data), void (*Actio
 
 /* ===== ITERATE ===== */
 
+/* Loop the nodes while executing the given function pointer */
 void iterate(void *p2headptr, void (*func_ptr)(void *data)) {
 
 		struct Node *currNode = p2headptr;
@@ -135,6 +141,7 @@ void iterate(void *p2headptr, void (*func_ptr)(void *data)) {
 
 /* ===== LEAST ===== */
 
+/* Loop the nodes to find the least variable with the given condition function pointer */
 double least(void *p2headptr, double (*func_ptr)(void *data)) {
 
 		struct Node *currNode = p2headptr;
@@ -152,6 +159,7 @@ double least(void *p2headptr, double (*func_ptr)(void *data)) {
 
 /* ===== SORT ===== */
 
+/* Swap the two given pointer to pointer variable */
 static void swap(void **data1, void **data2) {
 		void *temp;
 		temp = *data1;
@@ -159,6 +167,7 @@ static void swap(void **data1, void **data2) {
 		*data2 = temp;
 }
 
+/* Loop the nodes and swap the datas if the given condition function pointer is true */
 void sort(void *p2headptr, int (*ComparisonFunc)(void *data1, void *data2)) {
 
 		struct Node *indNode = p2headptr;

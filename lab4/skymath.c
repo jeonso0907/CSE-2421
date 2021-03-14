@@ -38,15 +38,23 @@
 #include "structs.h"
 #include "debug.h"
 #include "physics.h"
+#include "functions.h"
 
 /********* salvaged / ported routines *************/
 
+/* Calculate the new delta time */
+double newDT(struct FW *fptr) {
+
+	return (0.25 * fw_get_delta_Y() / fptr->VY);
+}
+
+/* (SOOYOUNG JEON) Edited the set_dt by adding function newDT to avoid the two jobs in a function */
+
 /* Set up the appropriate delta time for the fireworks */
-void set_dt(struct FW *fptr, struct Sim *site) {
+void set_dt(struct Sim *site) {
 
 	/* to get two hits in X I need 4 hits in y */
-	double candidate = (0.25 * fw_get_delta_Y() / fptr->VY);
-	if( site->dt == 0.0 || site->dt > candidate) site->dt = candidate;
+	site->dt = least(site->p2headptr, get_least_dt);
 }
 
 /****** x, y , vx, vy related ******/
