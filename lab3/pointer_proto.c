@@ -10,7 +10,7 @@ void struct_pointer(Firework *f) {
 		printf("Launch Time: %3lf\nHex code:    %3X\nFuse time:   %3lf\nX Position:  %3lf\nY Position:  %3lf\nX Velocity:  %3lf\nY Velocity:  %3lf\n\n", f->time, f->hex, f->fuse, f->x, f->y, f->vx, f->vy);
 }
 
-int main() {
+int main(int argc, char *argv[]) {
 	struct Firework firework = {0}, *f = &firework;
 	f->time = 10;
 	f->hex = 0xA1239A;

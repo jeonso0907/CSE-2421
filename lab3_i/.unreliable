@@ -1,0 +1,11 @@
+malloc: FAIL.
+malloc: Count =  1, size = 64.
+malloc: FAIL.
+malloc: Count =  2, size = 64.
+malloc: Count =  3, size = 64.
+malloc: FAIL.
+malloc: Count =  4, size = 64.
+free: Free count =  1.
+free: Free count =  2.
+free: Free count =  3.
+free: Free count =  4.

@@ -1,51 +1,48 @@
 
-#Sooyoung Jeon
+# Edited by Sooyoung Jeon
 
-#Makefile for lab 1-4.  You need to add you name to this file in the comments
-# You will need to add a entry to create your zip file
+all:  tags headers lab4
 
-#change the last dependency for each new lab
-all:  tags headers lab1 zd
-
-#this entry has to change for lab 2 - 4
-# NEVER compile .c files with this rule - it lacks needed compile time flags
-# There is an entry below that turns .c files into .o files
-
-lab1: lab1.o 
-	gcc -g -o $@ $^ 
-
-#this is where you create an entry to build yuour zip file
-#it will also update with new labs
-lab1.zip:	makefile *.c *.h README_LAB1
-	zip lab1.zip makefile *.c *.h README_LAB1
-	rm -rf install
-	mkdir install
-	unzip lab1.zip -d install
-	make -C install lab1 
-
-
-#this entry stays for C code labs
-tags: *.c
-	ctags -R .
-
-#this entry stays for C code labs
 headers: *.c tags
 	headers.sh
 
+tags: *.c
+	ctags -R .
 
-# this entry takes care of C files depending on header files
-# It has the flags for compiling the c code
-# It you don't like makefiles, consider typing the following line a few
-# thousand times this semester and reconsider.
-# Be sure that this one doesn't get an inserted line break anywhere
+# all of my dependencies must be dot o files
+
+# Lab4 including reliable and unreliable
+
+lab4: lab4.o output.o skymath.o bits.o memory.o functions.o linkedlist.o reliable.o
+	gcc -g -o $@ $^ -L. -lfire -lncurses
+	
+lab4u: lab4.o output.o skymath.o bits.o memory.o functions.o linkedlist.o unreliable.o
+	gcc -g -o $@ $^ -L. -lfire -lncurses
+
+
+# GRADE THIS
+# 4 linked list function prototypes
+
+p1: p1_iterate.o
+	gcc -g -o $@ $^ -L. -lfire -llinkedlist -lncurses
+	
+p2: p2_least.o
+	gcc -g -o $@ $^ -L. -lfire -llinkedlist -lncurses
+	
+p3: p3_sort.o
+	gcc -g -o $@ $^ -L. -lfire -llinkedlist -lncurses
+	
+p4: p4_insertDelete.o reliable.o
+	gcc -g -o $@ $^ -L. -lfire -lncurses
+
+# this is our master compiler rule to generate .o files.
+# It needs all 4 warnings
+
 %.o:%.c *.h
 	gcc -ansi -pedantic -Wimplicit-function-declaration -Wreturn-type -g -c $< -o $@
 
-#
-zd: zd.o
-	gcc -g -o $@ $^
-
-#make stuff to test the makefile
-stuff: makefile
-	date > stuff
-	ls -lt >> stuff
+# used to make the aipfile that distributes lab 4 code to students
+lab4.zip: *.c *.h *.a *.fwx makefile *.sh *.awk README_LAB4 reliable.o unreliable.o
+	zip $@ $^
+	
+	

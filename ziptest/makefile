@@ -1,60 +1,60 @@
-#
 # Sooyoung Jeon
+# CSE 2421 Lab5
+
+# The bulk of this makefile was provided by Neil Kirby for CSE 2421 SP21
+# YOu really need to add your name to this file.  It would be terible to
+# get a zero on an easy lab.
+# 
+# You also need to add a zip target that builds lab5.zip, but you are
+# experts at this by now.
 #
+# Also needed: rules for translate.o and swap.o based on their respective 
+# .s files.
+#
+# A ton of comments would be nice as well.
+# I don't have the master rule in here because we are building .o files
+# from C and from assembler and they need different rules.
 
-all:  tags headers lab2 simulate calculate bits xPositionProto yPositionProto colorProto flashProto yearProto
+# one of the two mandated executables
+lab5: lab5.o translate.o shim.o swap.o verify.o 
+	gcc -g -o $@ $^
 
-headers: *.c tags
-	headers.sh
+# the other mandated executable
+swap_driver: swap_driver.o swap.o shim.o
+	gcc -g -o $@ $^
 
-tags: *.c
-	ctags -R .
+# You don't need this, you don't use bad
+#bad.o: bad.s
+#	gcc -g -m64 -c -o $@ $^
 
-# [GRADE] this section please
-# With the current position x, x velocity, and delta time, calculate the next x position
-xPositionProto: xPositionProto.o calculate.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+# You don't need this, you have verify.o
+#verify.o: verify.s
+#	gcc -g -m64 -c -o $@ $^
 
-# With the current position y, y velocity, and delta time, calculate the next y position
-yPositionProto: yPositionProto.o calculate.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+# You don't need this, you have shim.o
+#shim.o: shim.s
+#	gcc -g -m64 -c -o $@ $^
 
-# With hex code, shift and mask to get the color number
-colorProto: colorProto.o bits.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
 
-# With hex code, shift and mask to get the availibity of flash effect as 1 or 0
-flashProto: flashProto.o bits.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+# Swap object file
+swap.o: swap.s
+	gcc -g -m64 -c -o $@ $^
+	
+# Translate object file
+translate.o: translate.s
+	gcc -g -m64 -c -o $@ $^
 
-# With hex code, shift and mask to get the year of the fire work made
-yearProto: yearProto.o bits.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+# rules to turn our 2 C code files into their dot o files.
+lab5.o: lab5.c
+	gcc -ansi -pedantic -c -o $@ $^
 
-# [DO NOT GRADE] this section
-p2: lab2
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+swap_driver.o: swap_driver.c
+	gcc -ansi -pedantic -c -o $@ $^
 
-p3: lab2.o simulate.o calculate.o bits.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
+# This is not the rule you are looking for.  This is the rule used to build
+# the supplied stuff, not the rule you want to zip up your masterwork when
+# it is done.
+lab5.zip: lab5.c swap_driver.c shim.o makefile s.output l5.output verify.o README_LAB5 translate.s swap.s
+	zip $@ $^
 
-p4: lab2
-	gcc -g -o $@ $^ -L. -lfire -lncurses
 
-# Default lab2 object
-lab2: lab2.o simulate.o calculate.o bits.o
-	gcc -g -o $@ $^ -L. -lfire -lncurses
-
-# this is our master compiler rule to generate .o files.
-# It needs all 4 warnings
-
-%.o:%.c *.h
-	gcc -ansi -pedantic -Wimplicit-function-declaration -Wreturn-type -g -c $< -o $@
-
-# Creates a zip file for lab2
-lab2.zip:   makefile *.c *.h README_LAB2 libfire.a 
-	zip lab2.zip makefile *.c *.h README_LAB2 libfire.a
-	rm -rf install
-	lab2.zip:   makefile *.c *.h README_LAB2 libfire.a
-	unzip lab2.zip -d install
-	make -C install lab2 
