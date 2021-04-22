@@ -33,9 +33,7 @@ int main()
 	    0x7ffd, (unsigned short)0x8002, 0x7fff, 0x7f00}, 
 	    3 };
 	    
-	struct Device actual2 = { "On right side",{ -300, -321, -320, -332, -320, -313, -310, -314}, 5};
-	    
-	struct Device *thing = & actual2;
+	struct Device *thing = & actual;
 	
 
 	printf("eval_driver: %s currently has an adjustment of %d\n", 

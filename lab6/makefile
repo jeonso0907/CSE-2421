@@ -81,5 +81,7 @@ lab6.o: lab6.c device.h
 # it is done.
 
 # your zip file rule goes here
+lab6.zip: lab6.c cal_main.c eval_main.c makefile device.h calibrate.s evaluate.s inventory.s print.o take.o vshim.o README_LAB6
+	zip $@ $^
 
 
